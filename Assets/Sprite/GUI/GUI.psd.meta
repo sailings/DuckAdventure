@@ -1,0 +1,660 @@
+fileFormatVersion: 2
+guid: 680b998064303ec45b62ca0bb3fdfa0d
+timeCreated: 1440045042
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Controller Left
+    21300002: Controller A
+    21300004: Controller B
+    21300006: Controller Right
+    21300008: Clock
+    21300010: Heart
+    21300012: Pause
+    21300014: Play
+    21300016: Next
+    21300018: Replay
+    21300020: Menu
+    21300022: Controller Up
+    21300024: Controller Down
+    21300026: GUI_0
+    21300028: GUI_1
+    21300030: GUI_2
+    21300032: Txt Pause
+    21300034: Txt Level select
+    21300036: GUI_6
+    21300038: GUI_7
+    21300040: GUI_8
+    21300042: GUI_9
+    21300044: GUI_10
+    21300046: GUI_11
+    21300048: GUI_12
+    21300050: GUI_13
+    21300052: GUI_14
+    21300054: GUI_15
+    21300056: GUI_16
+    21300058: GUI_17
+    21300060: GUI_18
+    21300062: GUI_19
+    21300064: GUI_20
+    21300066: GUI_21
+    21300068: GUI_22
+    21300070: GUI_23
+    21300072: Panel
+    21300074: Box
+    21300076: Txt Level Clear
+    21300078: Btn Share
+    21300080: Panel Menu
+    21300082: Panel Replay
+    21300084: Panel Next
+    21300086: Panel Close
+    21300088: Lock
+    21300090: Panel Star 1
+    21300092: Panel Star 2
+    21300094: Panel Star 3
+    21300096: Level empty stars
+    21300098: Level star
+    21300100: Level panel
+    21300102: Circle
+    21300104: Circle Inside
+    21300106: Button blue
+    21300108: Loading text
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Controller Left
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 92
+        width: 125
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Controller A
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 144
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Controller B
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 26
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Controller Right
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 92
+        width: 125
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Clock
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1
+        width: 40
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Heart
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 44
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Pause
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 79
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Play
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 941
+        width: 83
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Next
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 762
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Replay
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 939
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Menu
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 941
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Controller Up
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 26
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Controller Down
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 144
+        width: 99
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 941
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 942
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 942
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Txt Pause
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 971
+        width: 165
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Txt Level select
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 972
+        width: 258
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 855
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_7
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 853
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_8
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 857
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_9
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 853
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 852
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_11
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 853
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 816
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_13
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 792
+        width: 54
+        height: 45
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_14
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 780
+        width: 34
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_15
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 781
+        width: 31
+        height: 68
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 758
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_17
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 764
+        width: 82
+        height: 83
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_18
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 763
+        width: 82
+        height: 82
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_19
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 767
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_20
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 728
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_21
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 731
+        width: 67
+        height: 43
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 730
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI_23
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 647
+        width: 229
+        height: 74
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Panel
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 271
+        width: 596
+        height: 453
+      alignment: 9
+      pivot: {x: .475652814, y: .44308275}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Box
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 563
+        width: 174
+        height: 54
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Txt Level Clear
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 454
+        width: 368
+        height: 74
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Btn Share
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 384
+        width: 198
+        height: 52
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Panel Menu
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 273
+        width: 90
+        height: 101
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Panel Replay
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 273
+        width: 89
+        height: 100
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Panel Next
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 273
+        width: 90
+        height: 99
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Panel Close
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 271
+        width: 86
+        height: 108
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Lock
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 197
+        width: 50
+        height: 63
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Panel Star 1
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 136
+        width: 98
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Panel Star 2
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 133
+        width: 126
+        height: 129
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Panel Star 3
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 132
+        width: 96
+        height: 103
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level empty stars
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 158
+        width: 83
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level star
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 128
+        width: 28
+        height: 26
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Level panel
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 3
+        width: 156
+        height: 120
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Circle
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 743
+        width: 212
+        height: 212
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 67, y: 67, z: 67, w: 67}
+    - name: Circle Inside
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 809
+        width: 146
+        height: 146
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 36, y: 33, z: 37, w: 36}
+    - name: Button blue
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 3
+        width: 272
+        height: 69
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 38, y: 23, z: 37, w: 18}
+    - name: Loading text
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 726
+        width: 272
+        height: 74
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

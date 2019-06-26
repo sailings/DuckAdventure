@@ -1,0 +1,1988 @@
+fileFormatVersion: 2
+guid: e1a176977afd80244a3753157c5d1dab
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fruit Banana
+    21300002: Fruit Nho
+    21300004: Fruit_2
+    21300006: Fruit Watermelon
+    21300008: Fruit Thom
+    21300010: Fruit_5
+    21300012: Fruit_6
+    21300014: Fruit Dau
+    21300016: Fruit_8
+    21300018: Fruit Dau
+    21300020: Fruit_10
+    21300022: Fruit_11
+    21300024: Fruit Ot
+    21300026: Fruit_13
+    21300028: Fruit_14
+    21300030: Fruit_7
+    21300032: Fruit_15
+    21300034: Fruit_16
+    21300036: Fruit Carrot
+    21300038: Fruit_18
+    21300040: Fruit_19
+    21300042: Fruit Bap
+    21300044: Fruit_21
+    21300046: Fruit_22
+    21300048: Fruit_23
+    21300050: Fruit_24
+    21300052: Fruit_25
+    21300054: Fruit_26
+    21300056: Fruit Cherry
+    21300058: Bridge falling
+    21300060: Props for all_4
+    21300062: Props for all_6
+    21300064: Props for all_7
+    21300066: Chanh
+    21300068: Props for all_9
+    21300070: Props for all_11
+    21300072: Props for all_12
+    21300074: Props for all_14
+    21300076: Props for all_15
+    21300078: Props for all_16
+    21300080: Props for all_17
+    21300082: Props for all_19
+    21300084: Props for all_20
+    21300086: Props for all_22
+    21300088: Props for all_23
+    21300090: Props for all_24
+    21300092: Props for all_25
+    21300094: Props for all_26
+    21300096: Props for all_27
+    21300098: Fruit Chanh
+    21300100: Platform I
+    21300102: Box-Metal
+    21300104: Box-Plus
+    21300106: Box-Wooden
+    21300108: Platform
+    21300110: Loxo 3
+    21300112: Loxo 2
+    21300114: Loxo 1
+    21300116: Platform II
+    21300118: Dirt I
+    21300120: Box-Plus
+    21300122: Box-Metal
+    21300124: Box-Wooden
+    21300126: Gai-Top
+    21300128: Gai-Bottom
+    21300130: Monster 01
+    21300132: Monster 02 - hand.R
+    21300134: Monster 02 - body
+    21300136: Monster 02 - hand.L
+    21300138: Monster 02 - leg.R
+    21300140: Monster 02 - leg.L
+    21300142: Monster 03 - hand.R
+    21300144: Monster 03 - hand.L
+    21300146: Monster 03 - body
+    21300148: Monster 03 - leg.R
+    21300150: Monster 03 - leg.L
+    21300152: Cannon-Body
+    21300154: Cannon-Standing
+    21300156: Box-Wooden 2
+    21300158: Box-Wooden 1
+    21300160: Box-Wooden 3
+    21300162: Box-Wooden 4
+    21300164: Mixground Night
+    21300166: Pipe - Blue
+    21300168: Pipe - Green
+    21300170: Props for all_2
+    21300172: Pipe - Blue - Mid
+    21300174: Monster Pipe Cang.R
+    21300176: Monster Pipe Cang.L
+    21300178: Monster Pipe Body
+    21300180: Pipe - Green Mid
+    21300182: Saw Blade Small
+    21300184: Saw Blade Big
+    21300186: Water
+    21300188: Wave1
+    21300190: Wave2
+    21300192: Wave3
+    21300194: Water BG
+    21300196: Water Front
+    21300198: Wooden
+    21300200: Box Float
+    21300202: Saved Point
+    21300204: Monster Bird Body
+    21300206: Monster Bird Swing.R
+    21300208: Monster Bird Swing.L
+    21300210: Monster Bird Swing.R
+    21300212: Monster Fish Body
+    21300214: Monster Fish tail
+    21300216: Monster Fish vay
+    21300218: Tutorial
+    21300220: Fire 1
+    21300222: Fire 2
+    21300224: Fire 3
+    21300226: Fire 4
+    21300228: Fire 5
+    21300230: Monster 04
+    21300232: Monster eye
+    21300234: Fish
+    21300236: Big-Bullet
+    21300238: Monster 05
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 16
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fruit Banana
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 934
+        width: 75
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed5b7112c74e454ebfcf1cd97da53a3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Nho
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 937
+        width: 51
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 500a0823782696649a696a1cc65ea2b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Thom
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 935
+        width: 51
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84cc9c274cc866a43b0369dac1ec9575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bridge falling
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 996
+        width: 56
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78ffbd5c4ee8973439fcf790c660517e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_4
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 939
+        width: 37
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 961d4fe86001e9e459ac8541fa6ef46d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Watermelon
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 935
+        width: 82
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03e9f43ff9dd13409aa312637c48165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 882
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01da2ac9e76b7c5408a846e1d6814cd5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 879
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1269bac4c4ac6b3499bf952afb1cc3fa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Chanh
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 879
+        width: 66
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83bacab1e81c6424aaa77666cd874efb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_9
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 872
+        width: 49
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e18b41bde5876744a4f68c33e62521b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Dau
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 871
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124659569c8ba3849af11c36e4c1dc7a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_11
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 808
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4367011bbc133c14695b098c1c2e8330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_12
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 809
+        width: 44
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c58e5f7f5ea95d43b34c6d25fa77c2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Ot
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 800
+        width: 25
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc88998476b05024fa24ca137aac6515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_14
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 810
+        width: 61
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25033df4966f69d409bacda7102c9786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 812
+        width: 41
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29da49605ecb22941949288c83c492db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 734
+        width: 61
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6d83bf449d0e64c884689d0aa24153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_17
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 743
+        width: 45
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc9a04ae3ff2c841b4fe97d91d8019b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Carrot
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 735
+        width: 53
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da260aeb72f34944bd1fd687c381346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_19
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 741
+        width: 53
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5df1e7159e2ad24bafeacd966a741ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_20
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 742
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4a18d9233ee4d4189db695fd288923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Bap
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 738
+        width: 38
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b54f58d57711f49a55ca733852e992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_22
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 666
+        width: 57
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc00b6a8d0547645a2212b69d59fd05
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_23
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 664
+        width: 72
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8689016c3a015594caf1d6ae46352638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_24
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 666
+        width: 43
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa260f7077208764e883597329e73889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_25
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 687
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef725b51b79a7d843a6079999488e57f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_26
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 677
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8d7959c73683a04a8f3f6b4e9e8b22e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_27
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 677
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aed1e0e9f5e358b44b841f469483f2d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fruit Cherry
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 876
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeeb1e7dee083a94ba1d5be455601bd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform I
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 995
+        width: 152
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e1b5b74d3e5b44285c20096094e92e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Platform II
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 190
+        width: 63
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd7ddfa9a5553b46ad1a2570f6a00e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loxo 3
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 0
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13ba23578718f7446bef5b23af8c6423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loxo 2
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 0
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d06acc3d736c5843996b6baa433e8b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Loxo 1
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 0
+        width: 63
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b2c0b76c1dc4e4899a23d6925d677b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dirt I
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 182
+        width: 62
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb9aeb9533fab34baf733e354b30fc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box-Plus
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 107
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e88577a1f765644c8c1b1fbc4d5240b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box-Metal
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 106
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c1be90d9eacaf4a974449bffb94f92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gai-Top
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 46
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8781eec4e5cd305419b6cca755f1ad23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gai-Bottom
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 0
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2310be1dddb5ed347814d94f8a0e0d29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 01
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 0
+        width: 65
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f29094d451487429dacab6971ebfc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 02 - hand.R
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 20
+        width: 14
+        height: 52
+      alignment: 9
+      pivot: {x: 0.4663876, y: 0.1742165}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a9373879cc07c142b54067d82aa1cdb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 02 - body
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 12
+        width: 59
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1ddc7ca1d999841854bc2f3d2389bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 02 - hand.L
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 18
+        width: 14
+        height: 51
+      alignment: 9
+      pivot: {x: 0.56722695, y: 0.16321522}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d56fd4d1f8f9d47ae37eba1067458c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 02 - leg.R
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0
+        width: 23
+        height: 11
+      alignment: 9
+      pivot: {x: 0.7045985, y: 0.90640813}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eadd53388a718da45ae7aa3bf0c02d1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 02 - leg.L
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 0
+        width: 24
+        height: 11
+      alignment: 9
+      pivot: {x: 0.3137312, y: 0.9277979}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0b9ca7cf40a2d4182fffcca8e71810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 03 - hand.R
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 104
+        width: 43
+        height: 27
+      alignment: 9
+      pivot: {x: 0.8330497, y: 0.09372683}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b5cc36daaf8d0429fcfaa487222b54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 03 - hand.L
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 105
+        width: 30
+        height: 40
+      alignment: 9
+      pivot: {x: 0.20545247, y: 0.0886486}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c16ddcf0757f92439d5a016fa116595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 03 - body
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 19
+        width: 78
+        height: 84
+      alignment: 9
+      pivot: {x: 0.6325879, y: 0.12014448}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df956c6419dc90f488eeb69ea87aced4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 03 - leg.R
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 0
+        width: 20
+        height: 16
+      alignment: 9
+      pivot: {x: 0.5974991, y: 0.8916685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4e237b003886b4592ba0933a99094d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 03 - leg.L
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 0
+        width: 20
+        height: 18
+      alignment: 9
+      pivot: {x: 0.27147216, y: 0.8216309}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43413ded5cba3f5488edc0839ea8e3e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon-Body
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 249
+        width: 166
+        height: 121
+      alignment: 9
+      pivot: {x: 0.37532172, y: 0.35542637}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46dcfc31302abf2408982c45b29e0c67
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Cannon-Standing
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 248
+        width: 62
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed26d18eca750e45a0d98b92cd9d80d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box-Wooden 2
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 136
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6cb3586ae10454a85869a4136b872c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box-Wooden 1
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 136
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a970775aaa2c45a42b829643586f1a07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box-Wooden 3
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 105
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9f266223fbb6b45b1f2a47dcbb5bef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box-Wooden 4
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 105
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965fc5255d395e646ac139fc515619ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mixground Night
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 632
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f408b4dbde22d4985e394a3630baba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe - Blue
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 379
+        width: 96
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 32, y: 11, z: 34, w: 27}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86ca771a2e5ac38468fcc1aefb4f5aaa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe - Green
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 381
+        width: 96
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 34, y: 9, z: 40, w: 27}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd96bf998eb1a5b409aa17ffcc21e800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Props for all_2
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 167
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa576cce32cd2b54c9d1acae42c14b64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe - Blue - Mid
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 380
+        width: 96
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e08ebfbeb0ac549899c819e2768b01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Pipe Cang.R
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 79
+        width: 21
+        height: 29
+      alignment: 9
+      pivot: {x: 0.872024, y: 0.14915965}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbdc5bb94ba33584d85641cdc15b50e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Pipe Cang.L
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 80
+        width: 21
+        height: 28
+      alignment: 9
+      pivot: {x: 0.12797782, y: 0.1560955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749ff2d696f4f804198341e0e6e5374c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Pipe Body
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 46
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca5b63ef0778764f863d81a62250d24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe - Green Mid
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 383
+        width: 96
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f08ad22eff1aa94880c173b5ec01451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saw Blade Small
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 455
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cef86594c337d24f9cb3456b87c1c81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saw Blade Big
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 455
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 137e960b56a47a544b8b36910fca48b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water BG
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 834
+        width: 512
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c72bce4db353254893dd4b2b0eba07a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Water Front
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 698
+        width: 512
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559236584493df747b513a7eb6b9abea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wooden
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 2
+        width: 216
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27de7ae3adb577d469a9a29eb684f715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box Float
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 108
+        width: 72
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de474730b78ec9f4c97247a61f9ca24c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Saved Point
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 106
+        width: 100
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebbf93ce5c8a9c43b0ecfb83e6cbc77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Bird Body
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 129
+        width: 70
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4791f349d4f48147b08f6ff46e37f52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Bird Swing.R
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 116
+        width: 20
+        height: 12
+      alignment: 9
+      pivot: {x: 0.9068534, y: 0.8507373}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7408540c0a7fc441b3684db97c3a0f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Bird Swing.L
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 115
+        width: 23
+        height: 13
+      alignment: 9
+      pivot: {x: 0.12791476, y: 0.78058976}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba83ca176ce5c564aadfc6a341d2ae0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Fish Body
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 85
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce4c763a98b1e44c80145bbafde4170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Fish tail
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 109
+        width: 10
+        height: 26
+      alignment: 9
+      pivot: {x: 0.16351776, y: 0.57686764}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1966d0de16bee44b93408c1aa4407ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster Fish vay
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 88
+        width: 12
+        height: 14
+      alignment: 9
+      pivot: {x: 0.060928345, y: 0.2534256}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8b43bbf6373994e99a07a320b4af0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tutorial
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 106
+        width: 100
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507834adcb633714292877669db702d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire 1
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 498
+        width: 73
+        height: 152
+      alignment: 9
+      pivot: {x: 0.40374494, y: 0.022079267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aaaecdb227cd96439ce3cb1f5072de7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire 2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 498
+        width: 73
+        height: 152
+      alignment: 9
+      pivot: {x: 0.4038437, y: 0.02257819}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00daa3b672386f40b800a7e10d259bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire 3
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 498
+        width: 73
+        height: 152
+      alignment: 9
+      pivot: {x: 0.44422328, y: 0.023664575}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30c16f8de9938cc4886ea2cc0bbca48b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire 4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 498
+        width: 79
+        height: 152
+      alignment: 9
+      pivot: {x: 0.40009782, y: 0.02209794}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5f9a2fdd0cb37418a03cc1e252c247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire 5
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 498
+        width: 78
+        height: 152
+      alignment: 9
+      pivot: {x: 0.4041803, y: 0.023667987}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094bad7238ba40b438ff0f65e3cdcaa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 04
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 0
+        width: 76
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbec1411df25d0a43a0a14859bd7e0ac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster eye
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 87
+        width: 36
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5044081, y: 0.19037403}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2723fc9ec941b9a49bf9dcde98650cdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fish
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 973
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6c9f9e45dadff44bf3f449e4a3fb1a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big-Bullet
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 588
+        width: 114
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc1e14f0f7c1b3743a63610a6448ba2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Monster 05
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 9
+        width: 61
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b652baddaa03d42a753ccd12305f03
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 315c42d7543dfbf45a63022b8da952d1
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 1
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

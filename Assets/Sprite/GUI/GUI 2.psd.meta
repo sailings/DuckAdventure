@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 6d90b4b389ca5314f826f8b108fbfe6a
+timeCreated: 1440127568
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Social
+    21300002: GUI 2_1
+    21300004: GUI 2_2
+    21300006: GUI 2_3
+    21300008: GUI 2_4
+    21300010: GUI 2_5
+    21300012: GUI 2_6
+    21300014: GUI 2_7
+    21300016: Coming soon
+    21300018: More Games
+    21300020: addp
+    21300022: FB icon
+    21300024: Share
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Social
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 407
+        width: 177
+        height: 175
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI 2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 168
+        height: 165
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI 2_4
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 203
+        width: 192
+        height: 162
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI 2_5
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 35
+        width: 227
+        height: 298
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI 2_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 184
+        height: 155
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: GUI 2_7
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 9
+        width: 177
+        height: 147
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Coming soon
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 436
+        width: 242
+        height: 137
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: More Games
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 457
+        width: 187
+        height: 122
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: addp
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 336
+        width: 264
+        height: 97
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FB icon
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 532
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Share
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 475
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
