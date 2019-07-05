@@ -11,6 +11,10 @@ public class PlayerController : MonoBehaviour
     public float jumpForce = 100;
     private float gravityNormal = 3.0f;
     private float gravityJump = 1.2f;
+    private bool isGround = true;
+    public Transform CheckPoint;
+    private float groundDistance = 0.1f;
+    public LayerMask GroundMask;
 
     private void Awake()
     {
@@ -20,8 +24,11 @@ public class PlayerController : MonoBehaviour
 
     public void Jump()
     {
-        rig.gravityScale = gravityJump;
-        rig.AddForce(new Vector2(0, jumpForce));
+        if (isGround)
+        {
+            rig.gravityScale = gravityJump;
+            rig.AddForce(new Vector2(0, jumpForce));
+        }
     }
 
     public void JumpOff()
@@ -32,7 +39,7 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        
     }
 
     private void FixedUpdate()
@@ -40,13 +47,26 @@ public class PlayerController : MonoBehaviour
         if (play)
         {
             transform.Translate(new Vector2(speed, 0));
+
+            var result = Physics2D.Raycast(CheckPoint.position, Vector2.down, groundDistance,GroundMask);
+            if (result)
+            {
+                isGround = true;
+                Debug.Log(result.transform.name);
+                animator.SetBool("IsGround",true);
+            }
+            else {
+                isGround = false;
+                animator.SetBool("IsGround", false);
+            }
         }
+        Debug.DrawLine(CheckPoint.position, CheckPoint.position + Vector3.down * groundDistance, Color.red);
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if(Input.GetKeyDown(KeyCode.UpArrow))
         {
             Jump();
         }
