@@ -16,10 +16,19 @@ public class PlayerController : MonoBehaviour
     private float groundDistance = 0.1f;
     public LayerMask GroundMask;
 
+    public BoxCollider2D BoxCollider;
+    public CircleCollider2D CircleCollider;
+
+    public GameObject SmokePoint;
+    public GameObject SmokeEffect;
+
+    private bool isJumpDownHold = false;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
         rig = GetComponent<Rigidbody2D>();
+        StartCoroutine(CreateSmoke());
     }
 
     public void Jump()
@@ -28,6 +37,18 @@ public class PlayerController : MonoBehaviour
         {
             rig.gravityScale = gravityJump;
             rig.AddForce(new Vector2(0, jumpForce));
+        }
+    }
+
+    IEnumerator CreateSmoke()
+    {
+        while (true)
+        {
+            if (isGround && isJumpDownHold && play)
+            {
+                Instantiate(SmokeEffect, SmokePoint.transform.position, Quaternion.identity);
+            }
+            yield return new WaitForSeconds(0.2f);
         }
     }
 
@@ -73,6 +94,30 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.UpArrow))
         {
             JumpOff();
+        }
+        if (Input.GetKeyDown(KeyCode.DownArrow))
+        {
+            Slide(true);
+        }
+        if (Input.GetKeyUp(KeyCode.DownArrow))
+        {
+            Slide(false);
+        }
+    }
+
+    public void Slide(bool slide)
+    {
+        animator.SetBool("Slide", slide);
+        isJumpDownHold = slide;
+        if (slide)
+        {
+            //Instantiate(SmokeEffect, SmokePoint.transform.position, Quaternion.identity);
+            BoxCollider.enabled = false;
+            CircleCollider.enabled = true;
+        }
+        else {
+            BoxCollider.enabled = true;
+            CircleCollider.enabled = false;
         }
     }
 
