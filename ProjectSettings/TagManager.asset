@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Star
+  - Fruit
   layers:
   - Default
   - TransparentFX
@@ -42,4 +43,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Duck
+    uniqueID: 331391353
     locked: 0

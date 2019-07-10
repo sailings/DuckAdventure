@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     public Transform CheckPoint;
     private float groundDistance = 0.1f;
     public LayerMask GroundMask;
+    private bool die = false;
 
     public BoxCollider2D BoxCollider;
     public CircleCollider2D CircleCollider;
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
     private bool isJumpDownHold = false;
 
     public GameObject StarHitEffect;
+    public GameObject FruitHitEffect;
 
     private void Awake()
     {
@@ -74,11 +76,30 @@ public class PlayerController : MonoBehaviour
             Instantiate(StarHitEffect, gameObject.transform);
             Destroy(collision.gameObject);
         }
+        if (collision.gameObject.CompareTag("Fruit"))
+        {
+            GameManager.Instance.Hearts++;
+            Instantiate(FruitHitEffect, gameObject.transform);
+            Destroy(collision.gameObject);
+        }
+    }
+
+    public void Dead()
+    {
+        if (!die)
+        {
+            die = true;
+            animator.SetTrigger("Die");
+            BoxCollider.enabled = false;
+            CircleCollider.enabled = false;
+            rig.velocity = Vector2.zero;
+            rig.gravityScale = 0.5f;
+        }
     }
 
     private void FixedUpdate()
     {
-        if (play)
+        if (play && !die)
         {
             transform.Translate(new Vector2(speed, 0));
 
