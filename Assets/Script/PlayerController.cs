@@ -24,6 +24,8 @@ public class PlayerController : MonoBehaviour
 
     private bool isJumpDownHold = false;
 
+    public GameObject StarHitEffect;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -63,6 +65,17 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.gameObject.CompareTag("Star"))
+        {
+            GameManager.Instance.Stars++;
+            GameManager.Instance.Score += 10;
+            Instantiate(StarHitEffect, gameObject.transform);
+            Destroy(collision.gameObject);
+        }
+    }
+
     private void FixedUpdate()
     {
         if (play)
@@ -73,7 +86,7 @@ public class PlayerController : MonoBehaviour
             if (result)
             {
                 isGround = true;
-                Debug.Log(result.transform.name);
+                //Debug.Log(result.transform.name);
                 animator.SetBool("IsGround",true);
             }
             else {
