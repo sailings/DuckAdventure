@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
-    private float speed = -0.01f;
+    public float speed = -0.01f;
     public LayerMask TurnLayer;
 
     private bool dead = false;
@@ -19,8 +19,12 @@ public class Monster : MonoBehaviour
 
     public GameObject FireObject;
 
+    private LineRenderer lineRenderer;
+    public GameObject LinePosition;
+
     private void Awake()
     {
+        lineRenderer = GetComponent<LineRenderer>();
         controller = FindObjectOfType<PlayerController>();
         if (FireObject)
         {
@@ -110,6 +114,10 @@ public class Monster : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (lineRenderer)
+        {
+            lineRenderer.SetPosition(0, LinePosition.transform.position);
+            lineRenderer.SetPosition(1, gameObject.transform.position);
+        }
     }
 }
