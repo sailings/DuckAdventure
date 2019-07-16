@@ -82,6 +82,10 @@ public class PlayerController : MonoBehaviour
             Instantiate(FruitHitEffect, gameObject.transform);
             Destroy(collision.gameObject);
         }
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            GameManager.Instance.GameOver();
+        }
     }
 
     public void Dead()
