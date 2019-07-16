@@ -17,15 +17,45 @@ public class Monster : MonoBehaviour
     public GameObject KillByPlayerEffect;
     public GameObject KillPlayerEffect;
 
+    public GameObject FireObject;
+
     private void Awake()
     {
         controller = FindObjectOfType<PlayerController>();
+        if (FireObject)
+        {
+            FireObject.SetActive(false);
+            StartCoroutine(FireIEnumer());
+        }
     }
 
     // Start is called before the first frame update
     void Start()
     {
         
+    }
+
+    IEnumerator FireIEnumer()
+    {
+        while (!dead)
+        {
+            yield return new WaitForSeconds(Random.Range(1.0f,3.0f));
+            Fire();
+            yield return new WaitForSeconds(Random.Range(1.0f, 1.5f));
+            StopFire();
+        }
+    }
+
+    private void Fire()
+    {
+        if (FireObject)
+            FireObject.SetActive(true);
+    }
+
+    private void StopFire()
+    {
+        if (FireObject)
+            FireObject.SetActive(false);
     }
 
     private void FixedUpdate()
@@ -35,6 +65,7 @@ public class Monster : MonoBehaviour
         {
             transform.Rotate(Vector3.up, 180);
         }
+        Debug.DrawLine(gameObject.transform.position, gameObject.transform.position + Vector3.left * 0.1f, Color.red);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -47,6 +78,9 @@ public class Monster : MonoBehaviour
 
             var effect = Instantiate(KillByPlayerEffect, controller.gameObject.transform);
             effect.transform.localPosition = effectPos1;
+
+            if (FireObject)
+                FireObject.SetActive(false);
 
             gameObject.transform.localScale = new Vector3(1.0f,0.3f,1.0f);
             controller.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
