@@ -5,10 +5,12 @@ using UnityEngine;
 public class PlayerDetect : MonoBehaviour
 {
     public GameObject Monster;
+    public bool InitEnable = false;
 
     private void Awake()
     {
-        Monster.SetActive(false);
+        if(!InitEnable)
+            Monster.SetActive(false);
     }
 
     // Start is called before the first frame update

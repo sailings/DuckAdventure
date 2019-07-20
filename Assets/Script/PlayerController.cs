@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour
     private float gravityJump = 1.2f;
     private bool isGround = true;
     public Transform CheckPoint;
-    private float groundDistance = 0.1f;
+    private float groundDistance = 0.2f;
     public LayerMask GroundMask;
     private bool die = false;
 
@@ -28,6 +28,7 @@ public class PlayerController : MonoBehaviour
 
     public GameObject StarHitEffect;
     public GameObject FruitHitEffect;
+    public GameObject BloodEffect;
 
     private void Awake()
     {
@@ -66,6 +67,15 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Saw"))
+        {
+            Instantiate(BloodEffect, transform);
+            GameManager.Instance.GameOver();
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
