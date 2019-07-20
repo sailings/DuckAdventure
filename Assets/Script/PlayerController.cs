@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class PlayerController : MonoBehaviour
 {
@@ -98,6 +99,19 @@ public class PlayerController : MonoBehaviour
             CircleCollider.enabled = false;
             rig.velocity = Vector2.zero;
             rig.gravityScale = 0.5f;
+        }
+    }
+
+    public void FallWater(Vector3 floatPoint)
+    {
+        if (!die)
+        {
+            die = true;
+            rig.velocity = Vector3.zero;
+            rig.isKinematic = true;
+            transform.DORotate(new Vector3(0, 0, 90), 0.5f).OnComplete(()=> {
+                transform.DOMoveY(floatPoint.y, 0.5f);
+            });
         }
     }
 

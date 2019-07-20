@@ -26,6 +26,7 @@ public class Fish : MonoBehaviour
 
     public void Attack()
     {
+        Debug.Log("ATTACK");
         GetComponent<Rigidbody2D>().isKinematic = false;
         GetComponent<Rigidbody2D>().AddForce(new Vector2(0,300));
     }

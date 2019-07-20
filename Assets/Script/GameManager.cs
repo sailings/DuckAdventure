@@ -67,6 +67,12 @@ public class GameManager : MonoBehaviour
         StartCoroutine(Restart(2.0f));
     }
 
+    public void FallWaterGameOver(Vector3 floatPoint)
+    {
+        Controller.FallWater(floatPoint);
+        StartCoroutine(Restart(1.5f));
+    }
+
     IEnumerator Restart(float waitTime)
     {
         yield return new WaitForSeconds(waitTime);
