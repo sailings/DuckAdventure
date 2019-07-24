@@ -9,6 +9,7 @@ TagManager:
   - Fruit
   - Saw
   - Magnet
+  - JetPack
   layers:
   - Default
   - TransparentFX

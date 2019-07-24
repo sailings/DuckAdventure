@@ -33,9 +33,14 @@ public class PlayerController : MonoBehaviour
     public GameObject Magnet;
     public float MagnetTimer = 10.0f;
 
+    public GameObject JetPack;
+    private bool isUsingJetPack = false;
+    private bool isJumpUpHold = false;
+
     private void Awake()
     {
         Magnet.SetActive(false);
+        JetPack.SetActive(false);
         animator = GetComponent<Animator>();
         rig = GetComponent<Rigidbody2D>();
         StartCoroutine(CreateSmoke());
@@ -108,6 +113,12 @@ public class PlayerController : MonoBehaviour
             Destroy(collision.gameObject);
             StartCoroutine(DisableMagnet());
         }
+        if (collision.gameObject.CompareTag("JetPack"))
+        {
+            isUsingJetPack = true;
+            JetPack.SetActive(true);
+            Destroy(collision.gameObject);
+        }
     }
 
     IEnumerator DisableMagnet()
@@ -148,6 +159,12 @@ public class PlayerController : MonoBehaviour
         {
             transform.Translate(new Vector2(speed, 0));
 
+            if (isUsingJetPack && isJumpUpHold)
+            {
+                rig.velocity = Vector2.zero;
+                rig.AddForce(new Vector2(0,150.0f));
+            }
+
             var result = Physics2D.Raycast(CheckPoint.position, Vector2.down, groundDistance,GroundMask);
             if (result)
             {
@@ -168,10 +185,12 @@ public class PlayerController : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.UpArrow))
         {
+            isJumpUpHold = true;
             Jump();
         }
         if (Input.GetKeyUp(KeyCode.UpArrow))
         {
+            isJumpUpHold = false;
             JumpOff();
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
