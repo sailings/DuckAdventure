@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 513385843830844983}
   - component: {fileID: 513385843830844980}
   - component: {fileID: 513385843830844981}
+  - component: {fileID: -2554761891427937738}
   m_Layer: 0
   m_Name: Fruit Banana
   m_TagString: Fruit
@@ -121,3 +122,16 @@ PolygonCollider2D:
       - {x: 0.15977192, y: -0.17339164}
       - {x: -0.058225706, y: -0.025783345}
       - {x: -0.185, y: 0.275}
+--- !u!114 &-2554761891427937738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513385843830844986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af5d7dce058a97499a8dee4db5f3b8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 5

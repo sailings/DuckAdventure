@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7849226302057327936}
   - component: {fileID: 7849226302057327939}
   - component: {fileID: 7849226302057327937}
+  - component: {fileID: 162506222689002241}
   m_Layer: 0
   m_Name: Fruit Chanh
   m_TagString: Fruit
@@ -117,3 +118,16 @@ PolygonCollider2D:
       - {x: 0.32, y: 0.02}
       - {x: 0.32, y: 0.12}
       - {x: 0.24776885, y: 0.16776879}
+--- !u!114 &162506222689002241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7849226302057327938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af5d7dce058a97499a8dee4db5f3b8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 5

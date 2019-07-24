@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4325253452770712647}
   - component: {fileID: 4325253452770712640}
   - component: {fileID: 4325253452770712646}
+  - component: {fileID: 1506938921094113350}
   m_Layer: 0
   m_Name: Fruit Nho
   m_TagString: Fruit
@@ -118,3 +119,16 @@ PolygonCollider2D:
       - {x: 0.114999995, y: -0.24}
       - {x: 0.185, y: -0.08}
       - {x: 0.24499999, y: 0.089999996}
+--- !u!114 &1506938921094113350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4325253452770712641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af5d7dce058a97499a8dee4db5f3b8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 5

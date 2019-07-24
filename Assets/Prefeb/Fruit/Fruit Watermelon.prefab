@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 9193969356193038196}
   - component: {fileID: 9193969356193038199}
   - component: {fileID: 9193969356193038197}
+  - component: {fileID: -6828658314627302891}
   m_Layer: 0
   m_Name: Fruit Watermelon
   m_TagString: Fruit
@@ -120,3 +121,16 @@ PolygonCollider2D:
       - {x: 0.13, y: -0.24499999}
       - {x: 0.19999999, y: -0.21499999}
       - {x: 0.31637585, y: -0.104127616}
+--- !u!114 &-6828658314627302891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9193969356193038198}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af5d7dce058a97499a8dee4db5f3b8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 5

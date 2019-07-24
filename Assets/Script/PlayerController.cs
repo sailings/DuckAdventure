@@ -30,8 +30,12 @@ public class PlayerController : MonoBehaviour
     public GameObject FruitHitEffect;
     public GameObject BloodEffect;
 
+    public GameObject Magnet;
+    public float MagnetTimer = 10.0f;
+
     private void Awake()
     {
+        Magnet.SetActive(false);
         animator = GetComponent<Animator>();
         rig = GetComponent<Rigidbody2D>();
         StartCoroutine(CreateSmoke());
@@ -97,6 +101,19 @@ public class PlayerController : MonoBehaviour
         {
             GameManager.Instance.GameOver();
         }
+        if (collision.gameObject.CompareTag("Magnet"))
+        {
+            Magnet.SetActive(true);
+            Debug.Log("Hit Magnet");
+            Destroy(collision.gameObject);
+            StartCoroutine(DisableMagnet());
+        }
+    }
+
+    IEnumerator DisableMagnet()
+    {
+        yield return new WaitForSeconds(MagnetTimer);
+        Magnet.SetActive(false);
     }
 
     public void Dead()

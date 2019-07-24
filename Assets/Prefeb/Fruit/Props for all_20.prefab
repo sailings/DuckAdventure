@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3820448129731426029}
   - component: {fileID: 3820448129731426028}
   - component: {fileID: 3820448129731426030}
+  - component: {fileID: -2316859720459101078}
   m_Layer: 0
   m_Name: Props for all_20
   m_TagString: Fruit
@@ -118,3 +119,16 @@ PolygonCollider2D:
       - {x: 0.109820604, y: -0.18307635}
       - {x: 0.12526476, y: -0.16026461}
       - {x: 0.17158091, y: -0.05947422}
+--- !u!114 &-2316859720459101078
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3820448129731426019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af5d7dce058a97499a8dee4db5f3b8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 5
