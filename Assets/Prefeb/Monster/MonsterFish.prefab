@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 6648060810640176680}
   m_Layer: 0
   m_Name: Monster Fish
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

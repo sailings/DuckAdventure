@@ -163,7 +163,7 @@ GameObject:
   - component: {fileID: 2542494579116397453}
   m_Layer: 0
   m_Name: Monster3
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,12 +196,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1949f074a12b40a469e420c928759eab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  speed: -0.01
   TurnLayer:
     serializedVersion: 2
     m_Bits: 512
   KillByPlayerEffect: {fileID: 180048, guid: c8e6d641be7f7f24f87acc85816b5ab6, type: 3}
   KillPlayerEffect: {fileID: 156528, guid: d0a6d28b0ec967c49bd2bc22acd8b93b, type: 3}
   FireObject: {fileID: 2542494578912356653}
+  LinePosition: {fileID: 0}
 --- !u!50 &2542494579116397457
 Rigidbody2D:
   serializedVersion: 4

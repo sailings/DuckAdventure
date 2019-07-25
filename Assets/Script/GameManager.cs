@@ -9,11 +9,14 @@ public class GameManager : MonoBehaviour
     public Text StarText;
     public Text ScoreText;
     public Text HeartText;
+    public Text BulletText;
 
     private GameState state;
 
     public int Score { get; set; }
     public int Stars { get; set; }
+
+    public int Bullets { get; set; } = 2;
 
     private int hearts = 5;
     public int Hearts
@@ -96,6 +99,7 @@ public class GameManager : MonoBehaviour
         StarText.text = "Star:"+Stars.ToString();
         ScoreText.text = "Score:"+Score.ToString();
         HeartText.text = "Heart:" + Hearts.ToString();
+        BulletText.text = "Bullet:" + Bullets.ToString();
     }
 }
 

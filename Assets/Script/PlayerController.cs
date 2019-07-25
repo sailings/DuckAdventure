@@ -37,6 +37,9 @@ public class PlayerController : MonoBehaviour
     private bool isUsingJetPack = false;
     private bool isJumpUpHold = false;
 
+    public GameObject ThrownPoint;
+    public GameObject Bullet;
+
     private void Awake()
     {
         Magnet.SetActive(false);
@@ -117,6 +120,11 @@ public class PlayerController : MonoBehaviour
         {
             isUsingJetPack = true;
             JetPack.SetActive(true);
+            Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("BulletCollect"))
+        {
+            GameManager.Instance.Bullets += 3;
             Destroy(collision.gameObject);
         }
     }
@@ -200,6 +208,24 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.DownArrow))
         {
             Slide(false);
+        }
+        if (Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            Attack();
+        }
+    }
+
+    public void Attack()
+    {
+        if (!die)
+        {
+            if (GameManager.Instance.Bullets > 0)
+            {
+                animator.SetTrigger("Thrown");
+                var newBullet = Instantiate(Bullet, ThrownPoint.transform.position, Quaternion.identity);
+                newBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(800,100));
+                GameManager.Instance.Bullets--;
+            }
         }
     }
 
