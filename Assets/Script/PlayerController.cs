@@ -34,7 +34,7 @@ public class PlayerController : MonoBehaviour
     public float MagnetTimer = 10.0f;
 
     public GameObject JetPack;
-    private bool isUsingJetPack = false;
+    public bool isUsingJetPack = false;
     private bool isJumpUpHold = false;
 
     public GameObject ThrownPoint;
@@ -78,7 +78,11 @@ public class PlayerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (GlobalValue.HitSavePoint)
+        {
+            isUsingJetPack = GlobalValue.IsUsingJetPack;
+            JetPack.SetActive(isUsingJetPack);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
