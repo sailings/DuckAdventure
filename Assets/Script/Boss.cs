@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Boss : MonoBehaviour
 {
@@ -18,8 +19,13 @@ public class Boss : MonoBehaviour
     public GameObject HitEffect;
     public GameObject BulletMissEffect;
 
+    public GameObject SmokeEffect;
+
+    public Slider slider;
+
     private void Awake()
     {
+        SmokeEffect.SetActive(false);
         lifeLeft = TotalLife;
         controller = FindObjectOfType<PlayerController>();
         for (int i = 0; i < ProtectEffect.Length; i++)
@@ -54,7 +60,7 @@ public class Boss : MonoBehaviour
     void Start()
     {
         BeginAttack();
-        StartCoroutine(ProtectBoss());
+        //StartCoroutine(ProtectBoss());
     }
 
     IEnumerator Attack()
@@ -74,6 +80,7 @@ public class Boss : MonoBehaviour
     void Update()
     {
         transform.position = new Vector2(controller.gameObject.transform.position.x + offsetPlayerX, transform.position.y);
+        slider.value = (lifeLeft / TotalLife) * slider.maxValue;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -84,6 +91,12 @@ public class Boss : MonoBehaviour
             {
                 Debug.Log("Boss Hit");
                 lifeLeft -= 10;
+                if (lifeLeft > 0 && lifeLeft / TotalLife <= 0.7f)
+                {
+                    SmokeEffect.SetActive(true);
+                    var newColor = lifeLeft / TotalLife;
+                    SmokeEffect.GetComponent<ParticleSystem>().startColor = new Color(newColor,newColor,newColor);
+                }
                 var hitEffect = Instantiate(HitEffect, collision.gameObject.transform.position, Quaternion.identity);
                 hitEffect.transform.localScale = new Vector3(0.5f,0.5f,0.5f);
                 if (lifeLeft <= 0)
