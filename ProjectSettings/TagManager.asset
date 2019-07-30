@@ -12,6 +12,7 @@ TagManager:
   - JetPack
   - Monster
   - BulletCollect
+  - Bullet
   layers:
   - Default
   - TransparentFX

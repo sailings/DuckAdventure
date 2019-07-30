@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public int Score { get; set; }
     public int Stars { get; set; }
 
-    public int Bullets { get; set; } = 2;
+    public int Bullets { get; set; } = 200;
 
     private int hearts = 5;
     public int Hearts
@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
             if (hearts <= 0)
             {
                 //Debug.Log("Game Over");
-                GameOver();
+                //GameOver();
             }
         }
     }

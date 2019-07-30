@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 671737773489912846}
   m_Layer: 0
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -91,10 +91,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 671737773489912844}
     m_Modifications:
-    - target: {fileID: 135146, guid: 4d6a0e7e9654fee409bd47a7ccab5ead, type: 3}
-      propertyPath: m_Name
-      value: BulletSmallBlue
-      objectReference: {fileID: 0}
     - target: {fileID: 454532, guid: 4d6a0e7e9654fee409bd47a7ccab5ead, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -138,6 +134,10 @@ PrefabInstance:
     - target: {fileID: 454532, guid: 4d6a0e7e9654fee409bd47a7ccab5ead, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 135146, guid: 4d6a0e7e9654fee409bd47a7ccab5ead, type: 3}
+      propertyPath: m_Name
+      value: BulletSmallBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d6a0e7e9654fee409bd47a7ccab5ead, type: 3}
