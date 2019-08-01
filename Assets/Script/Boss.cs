@@ -20,6 +20,7 @@ public class Boss : MonoBehaviour
     public GameObject BulletMissEffect;
 
     public GameObject SmokeEffect;
+    public GameObject BussBullet;
 
     public Slider slider;
 
@@ -60,7 +61,7 @@ public class Boss : MonoBehaviour
     void Start()
     {
         BeginAttack();
-        //StartCoroutine(ProtectBoss());
+        StartCoroutine(ProtectBoss());
     }
 
     IEnumerator Attack()
@@ -68,7 +69,18 @@ public class Boss : MonoBehaviour
         while (!isDead)
         {
             yield return new WaitForSeconds(Random.Range(2.0f,3.0f));
-            //Instantiate(DropMonsters[Random.Range(0, DropMonsters.Length)],DropPoint.transform.position,Quaternion.identity);
+            Instantiate(DropMonsters[Random.Range(0, DropMonsters.Length)],DropPoint.transform.position,Quaternion.identity);
+
+            yield return new WaitForSeconds(Random.Range(1.0f, 3.0f));
+            var bossBullet = Instantiate(BussBullet,DropPoint.transform.position,Quaternion.identity);
+            var P1 = controller.transform.position;
+            var P2 = DropPoint.transform.position;
+            var distance = P2.x - P1.x;
+            var P3 = new Vector2(P1.x + 0.33f * distance + (0.33f * distance * Random.Range(0, 1.0f)), P1.y);
+            var time = (P3.x - P1.x) / (controller.speed / Time.fixedDeltaTime);
+            var vx = (P2.x - P3.x) / time * -1;
+            var vy = (P2.y - P3.y) / time * -1;
+            bossBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(vx,vy);
         }
     }
     public void BeginAttack()

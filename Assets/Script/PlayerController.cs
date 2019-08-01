@@ -112,6 +112,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             GameManager.Instance.GameOver();
+            Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("Magnet"))
         {
