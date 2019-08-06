@@ -64,6 +64,11 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void GameSuccess()
+    {
+        Debug.Log("GameSuccess");
+    }
+
     public void GameOver()
     {
         Controller.Dead();

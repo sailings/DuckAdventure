@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 19844192}
   - component: {fileID: 19953088}
   - component: {fileID: 942690924361038174}
+  - component: {fileID: -6592358030396241964}
   m_Layer: 0
   m_Name: ConfettiBlastRed
   m_TagString: Untagged
@@ -4598,9 +4599,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1355468009
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 331391353
+  m_SortingLayer: 1
+  m_SortingOrder: 10
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -4720,6 +4721,19 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-6592358030396241964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 162456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b7599a8795d36c4387e6d4689508b41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 3
 --- !u!1 &180040
 GameObject:
   m_ObjectHideFlags: 0
