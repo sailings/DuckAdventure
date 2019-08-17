@@ -6,10 +6,10 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public Text StarText;
-    public Text ScoreText;
-    public Text HeartText;
-    public Text BulletText;
+    //public Text StarText;
+    //public Text ScoreText;
+    //public Text HeartText;
+    //public Text BulletText;
 
     private GameState state;
 
@@ -59,7 +59,7 @@ public class GameManager : MonoBehaviour
             if (hearts <= 0)
             {
                 //Debug.Log("Game Over");
-                //GameOver();
+                GameOver();
             }
         }
     }
@@ -101,10 +101,10 @@ public class GameManager : MonoBehaviour
             Play();
         }
 
-        StarText.text = "Star:"+Stars.ToString();
-        ScoreText.text = "Score:"+Score.ToString();
-        HeartText.text = "Heart:" + Hearts.ToString();
-        BulletText.text = "Bullet:" + Bullets.ToString();
+        //StarText.text = "Star:"+Stars.ToString();
+        //ScoreText.text = "Score:"+Score.ToString();
+        //HeartText.text = "Heart:" + Hearts.ToString();
+        //BulletText.text = "Bullet:" + Bullets.ToString();
     }
 }
 
