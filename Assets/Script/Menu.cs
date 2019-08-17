@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
@@ -12,18 +13,13 @@ public class Menu : MonoBehaviour
 
     private int heartChildCount;
 
-    //public GameObject Heart1;
-    //public GameObject Heart2;
-    //public GameObject Heart3;
-    //public GameObject Heart4;
-    //public GameObject Heart5;
-    //public GameObject Heart6;
-    //public GameObject Heart7;
+    public GameObject GamePause;
 
     // Start is called before the first frame update
     void Start()
     {
         heartChildCount = Hearts.transform.childCount;
+        GamePause.SetActive(false);
     }
 
     void ShowHearts()
@@ -37,15 +33,37 @@ public class Menu : MonoBehaviour
         {
             Hearts.transform.GetChild(i).gameObject.SetActive(true);
         }
-        //Heart1.SetActive(hearts >= 1);
-        //Heart2.SetActive(hearts >= 2);
-        //Heart3.SetActive(hearts >= 3);
-        //Heart4.SetActive(hearts >= 4);
-        //Heart5.SetActive(hearts >= 5);
-        //Heart6.SetActive(hearts >= 6);
-        //Heart7.SetActive(hearts >= 7);
     }
-    
+
+    public void Pause()
+    {
+        GameManager.Instance.GameState = GameState.Pause;
+        GamePause.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void MainMenu()
+    {
+        GamePause.SetActive(false);
+        GlobalValue.HitSavePoint = false;
+        Time.timeScale = 1;
+        SceneManager.LoadScene("Menu");
+    }
+
+    public void Restart()
+    {
+        Time.timeScale = 1;
+        GlobalValue.HitSavePoint = false;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void Resume()
+    {
+        GameManager.Instance.GameState = GameState.Playing;
+        GamePause.SetActive(false);
+        Time.timeScale = 1;
+    }
+
     // Update is called once per frame
     void Update()
     {

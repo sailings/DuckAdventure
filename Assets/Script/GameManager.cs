@@ -37,6 +37,8 @@ public class GameManager : MonoBehaviour
 
     private float heartReduceTime = 3.0f;
 
+    public GameState GameState;
+
     private void Awake()
     {
         Instance = this;
