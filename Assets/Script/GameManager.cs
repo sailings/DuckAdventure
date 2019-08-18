@@ -11,7 +11,7 @@ public class GameManager : MonoBehaviour
     //public Text HeartText;
     //public Text BulletText;
 
-    private GameState state;
+    //private GameState state;
 
     public int Score { get; set; }
     public int Stars { get; set; }
@@ -56,7 +56,7 @@ public class GameManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(heartReduceTime);
-            if(state == GameState.Playing)
+            if(GameState == GameState.Playing)
                 Hearts--;
             if (hearts <= 0)
             {
@@ -69,6 +69,12 @@ public class GameManager : MonoBehaviour
     public void GameSuccess()
     {
         Debug.Log("GameSuccess");
+        if (GlobalValue.LevelPlaying >= GlobalValue.HightestLevel)
+        {
+            GlobalValue.HightestLevel = GlobalValue.LevelPlaying + 1;
+        }
+        GlobalValue.BestStar = Random.Range(0, 4);
+        Debug.Log(GlobalValue.BestStar);
     }
 
     public void GameOver()
@@ -91,7 +97,7 @@ public class GameManager : MonoBehaviour
 
     public void Play()
     {
-        state = GameState.Playing;
+        GameState = GameState.Playing;
         Controller.Play();
     }
 
@@ -101,6 +107,11 @@ public class GameManager : MonoBehaviour
        if(Input.anyKeyDown)
         {
             Play();
+        }
+
+        if (Input.GetKeyDown(KeyCode.S) && GameState == GameState.Playing)
+        {
+            GameSuccess();
         }
 
         //StarText.text = "Star:"+Stars.ToString();

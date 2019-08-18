@@ -20,6 +20,7 @@ public class Menu : MonoBehaviour
     {
         heartChildCount = Hearts.transform.childCount;
         GamePause.SetActive(false);
+        LevelName.text = $"WORLD {GlobalValue.WorldPlaying}-{GlobalValue.LevelPlaying}";
     }
 
     void ShowHearts()

@@ -23,4 +23,25 @@ public class GlobalValue
             PlayerPrefs.SetInt("WorldReached",value);
         }
     }
+
+    public static int HightestLevel
+    {
+        get {
+            return PlayerPrefs.GetInt("World" + WorldPlaying + "HighestLevel", 1);
+        }
+        set {
+            PlayerPrefs.SetInt("World" + WorldPlaying + "HighestLevel", value);
+        }
+    }
+
+    public static int BestStar
+    {
+        get {
+            return PlayerPrefs.GetInt("World" + WorldPlaying + "-" + LevelPlaying + "BestStar", 0);
+        }
+        set {
+            if (value > BestStar)
+                PlayerPrefs.SetInt("World" + WorldPlaying + "-" + LevelPlaying + "BestStar", value);
+        }
+    }
 }
