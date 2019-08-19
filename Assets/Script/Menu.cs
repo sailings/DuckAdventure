@@ -99,8 +99,9 @@ public class Menu : MonoBehaviour
         ShowHearts();
     }
 
-    public void ShowLevelComplete()
+    public IEnumerator ShowLevelComplete()
     {
+        yield return new WaitForSeconds(2);
         LevelComplete.SetActive(true);
     }
 }

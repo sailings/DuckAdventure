@@ -122,7 +122,7 @@ public class GameManager : MonoBehaviour
 
         Debug.Log($"TotalScore={totalScore},Score={Score},Star={Star},BestScore={GlobalValue.BestScore}");
 
-        Menu.Instance.ShowLevelComplete();
+        StartCoroutine(Menu.Instance.ShowLevelComplete());
     }
 
     public void GameOver()
