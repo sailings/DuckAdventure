@@ -14,6 +14,10 @@ public class GlobalValue
     public static int WorldPlaying = 1;
     public static int LevelPlaying = 1;
 
+    public static Dictionary<int, int> MaxLevels = new Dictionary<int, int> {
+        { 1,12},{ 2,3},{ 3,3}
+    };
+
     public static int WorldReached
     {
         get {
@@ -42,6 +46,19 @@ public class GlobalValue
         set {
             if (value > BestStar)
                 PlayerPrefs.SetInt("World" + WorldPlaying + "-" + LevelPlaying + "BestStar", value);
+        }
+    }
+
+    public static int BestScore
+    {
+        get
+        {
+            return PlayerPrefs.GetInt("World" + WorldPlaying + "-" + LevelPlaying + "BestScore", 0);
+        }
+        set
+        {
+            if (value > BestStar)
+                PlayerPrefs.SetInt("World" + WorldPlaying + "-" + LevelPlaying + "BestScore", value);
         }
     }
 }

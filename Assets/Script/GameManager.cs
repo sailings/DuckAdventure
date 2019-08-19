@@ -39,10 +39,22 @@ public class GameManager : MonoBehaviour
 
     public GameState GameState;
 
+    private int totalScore;
+    private int star1Score;
+    private int star2Score;
+    private int star3Score;
+
+    public int Star;
+
     private void Awake()
     {
         Instance = this;
         StartCoroutine(ReduceHeart());
+
+        totalScore = Random.Range(500, 1000);
+        star1Score = (int)(totalScore * 0.4f);
+        star2Score = (int)(totalScore * 0.6f);
+        star3Score = (int)(totalScore * 0.8f);
     }
 
     // Start is called before the first frame update
@@ -68,14 +80,48 @@ public class GameManager : MonoBehaviour
 
     public void GameSuccess()
     {
-        Debug.Log("GameSuccess");
+        //Debug.Log("GameSuccess");
+
+        Score = Random.Range(0, totalScore);
+
         if (GlobalValue.LevelPlaying >= GlobalValue.HightestLevel)
         {
             GlobalValue.HightestLevel = GlobalValue.LevelPlaying + 1;
         }
-        GlobalValue.BestStar = Random.Range(0, 4);
+
+        if (GlobalValue.LevelPlaying ==  GlobalValue.MaxLevels[GlobalValue.WorldPlaying])
+        {
+            GlobalValue.WorldReached++;
+        }
+
+        if (Score >= star3Score)
+        {
+            GlobalValue.BestStar = 3;
+            Star = 3;
+        }
+        else if (Score >= star2Score)
+        {
+            GlobalValue.BestStar = 2;
+            Star = 2;
+        }
+        else if (Score >= star1Score)
+        {
+            GlobalValue.BestStar = 1;
+            Star = 1;
+        }
+        else
+        {
+            GlobalValue.BestStar = 0;
+            Star = 0;
+        }
+
+        if (Score > GlobalValue.BestScore)
+            GlobalValue.BestScore = Score;
+
         GameState = GameState.Success;
-        Debug.Log(GlobalValue.BestStar);
+
+        Debug.Log($"TotalScore={totalScore},Score={Score},Star={Star},BestScore={GlobalValue.BestScore}");
+
         Menu.Instance.ShowLevelComplete();
     }
 

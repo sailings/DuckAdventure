@@ -52,6 +52,23 @@ public class Menu : MonoBehaviour
         Time.timeScale = 0;
     }
 
+    public void NextLevel()
+    {
+        GlobalValue.HitSavePoint = false;
+
+        if (GlobalValue.WorldPlaying <= 3)
+        {
+            if (GlobalValue.LevelPlaying < GlobalValue.MaxLevels[GlobalValue.WorldPlaying])
+                GlobalValue.LevelPlaying++;
+            else {
+                GlobalValue.WorldPlaying++;
+                GlobalValue.LevelPlaying = 1;
+            }
+            if(GlobalValue.WorldPlaying <=3 && GlobalValue.LevelPlaying<=GlobalValue.MaxLevels[GlobalValue.WorldPlaying])
+                SceneManager.LoadScene($"W{GlobalValue.WorldPlaying}-{GlobalValue.LevelPlaying}");
+        }
+    }
+
     public void MainMenu()
     {
         GamePause.SetActive(false);
