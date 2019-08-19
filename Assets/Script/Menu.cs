@@ -14,12 +14,21 @@ public class Menu : MonoBehaviour
     private int heartChildCount;
 
     public GameObject GamePause;
+    public GameObject LevelComplete;
+
+    public static Menu Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         heartChildCount = Hearts.transform.childCount;
         GamePause.SetActive(false);
+        LevelComplete.SetActive(false);
         LevelName.text = $"WORLD {GlobalValue.WorldPlaying}-{GlobalValue.LevelPlaying}";
     }
 
@@ -71,5 +80,10 @@ public class Menu : MonoBehaviour
         StarText.text = GameManager.Instance.Stars.ToString();
         BulletText.text = GameManager.Instance.Bullets.ToString();
         ShowHearts();
+    }
+
+    public void ShowLevelComplete()
+    {
+        LevelComplete.SetActive(true);
     }
 }

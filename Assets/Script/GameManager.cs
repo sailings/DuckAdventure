@@ -74,7 +74,9 @@ public class GameManager : MonoBehaviour
             GlobalValue.HightestLevel = GlobalValue.LevelPlaying + 1;
         }
         GlobalValue.BestStar = Random.Range(0, 4);
+        GameState = GameState.Success;
         Debug.Log(GlobalValue.BestStar);
+        Menu.Instance.ShowLevelComplete();
     }
 
     public void GameOver()
@@ -104,7 +106,7 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       if(Input.anyKeyDown)
+        if (Input.anyKeyDown && GameState != GameState.Playing && GameState != GameState.Success)
         {
             Play();
         }
@@ -125,5 +127,6 @@ public enum GameState
 {
     Menu,
     Playing,
-    Pause
+    Pause,
+    Success
 }
