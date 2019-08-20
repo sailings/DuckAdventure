@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5400922697252056732}
   - component: {fileID: 5400922697252056802}
   - component: {fileID: 5400922697252056803}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: JetPackFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}

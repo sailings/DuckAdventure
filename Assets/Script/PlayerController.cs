@@ -51,6 +51,7 @@ public class PlayerController : MonoBehaviour
 
     public void Jump()
     {
+        isJumpUpHold = true;
         if (isGround)
         {
             rig.gravityScale = gravityJump;
@@ -72,6 +73,7 @@ public class PlayerController : MonoBehaviour
 
     public void JumpOff()
     {
+        isJumpUpHold = false;
         rig.gravityScale = gravityNormal;
     }
 
@@ -198,12 +200,10 @@ public class PlayerController : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.UpArrow))
         {
-            isJumpUpHold = true;
             Jump();
         }
         if (Input.GetKeyUp(KeyCode.UpArrow))
         {
-            isJumpUpHold = false;
             JumpOff();
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))

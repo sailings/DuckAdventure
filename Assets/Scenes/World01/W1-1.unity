@@ -1612,11 +1612,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 427730, guid: a5ffdb18e3f811a43a07a12c9f1e6686, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 40.835
+      value: -5.89
       objectReference: {fileID: 0}
     - target: {fileID: 427730, guid: a5ffdb18e3f811a43a07a12c9f1e6686, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.765
+      value: -0.81
       objectReference: {fileID: 0}
     - target: {fileID: 427730, guid: a5ffdb18e3f811a43a07a12c9f1e6686, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1653,19 +1653,6 @@ PrefabInstance:
     - target: {fileID: 427730, guid: a5ffdb18e3f811a43a07a12c9f1e6686, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2108984286, guid: a5ffdb18e3f811a43a07a12c9f1e6686, type: 3}
-      propertyPath: ThrownPoint
-      value: 
-      objectReference: {fileID: 878520558}
-    - target: {fileID: 2108984286, guid: a5ffdb18e3f811a43a07a12c9f1e6686, type: 3}
-      propertyPath: Bullet
-      value: 
-      objectReference: {fileID: 671737773489912842, guid: e55781525a1dcfe429ec6c5c8c2a8bfd,
-        type: 3}
-    - target: {fileID: 2108984286, guid: a5ffdb18e3f811a43a07a12c9f1e6686, type: 3}
-      propertyPath: speed
-      value: 0.05
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5ffdb18e3f811a43a07a12c9f1e6686, type: 3}
@@ -4180,12 +4167,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4df1758b95600d941b0acbdd2705c55a, type: 3}
---- !u!224 &771514381 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 1018924814, guid: 5aca4e49399e63e46adf1d4ae17a1cb7,
-    type: 3}
-  m_PrefabInstance: {fileID: 3031796530951014574}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &774709260 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2542494578912356653, guid: f26951e5f4d107a48ae93cb7ed012e54,
@@ -4304,36 +4285,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &878520558
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 878520559}
-  m_Layer: 0
-  m_Name: ThrownPoint
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &878520559
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 878520558}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.275, y: 0.173, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2108984289}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &879015849
 GameObject:
   m_ObjectHideFlags: 0
@@ -11622,12 +11573,12 @@ PrefabInstance:
     - target: {fileID: 926506716335858771, guid: 8c1d1e8801314fc4ebecee16d1ccd5e4,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 48.07586
+      value: 1.3459296
       objectReference: {fileID: 0}
     - target: {fileID: 926506716335858771, guid: 8c1d1e8801314fc4ebecee16d1ccd5e4,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3508128
+      value: 1.3058128
       objectReference: {fileID: 0}
     - target: {fileID: 926506716335858771, guid: 8c1d1e8801314fc4ebecee16d1ccd5e4,
         type: 3}
@@ -11849,12 +11800,12 @@ PrefabInstance:
     - target: {fileID: 2074605829909084103, guid: 49bf31750c0866f49ad69b526033a7b6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 48.07586
+      value: 1.3459296
       objectReference: {fileID: 0}
     - target: {fileID: 2074605829909084103, guid: 49bf31750c0866f49ad69b526033a7b6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.3508128
+      value: 1.3058128
       objectReference: {fileID: 0}
     - target: {fileID: 2074605829909084103, guid: 49bf31750c0866f49ad69b526033a7b6,
         type: 3}
@@ -12471,13 +12422,20 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6415833, guid: 5aca4e49399e63e46adf1d4ae17a1cb7, type: 3}
-      propertyPath: Panel
-      value: 
-      objectReference: {fileID: 771514381}
-    - target: {fileID: 1018924814, guid: 5aca4e49399e63e46adf1d4ae17a1cb7, type: 3}
+    - target: {fileID: 3031796529985478893, guid: 5aca4e49399e63e46adf1d4ae17a1cb7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -136.69995
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031796529985478893, guid: 5aca4e49399e63e46adf1d4ae17a1cb7,
+        type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 637
+      value: -15.599976
+      objectReference: {fileID: 0}
+    - target: {fileID: 3031796531361511105, guid: 5aca4e49399e63e46adf1d4ae17a1cb7,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -2.0999756
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5aca4e49399e63e46adf1d4ae17a1cb7, type: 3}
@@ -13646,17 +13604,17 @@ PrefabInstance:
     - target: {fileID: 8195003900664221116, guid: b3958f3533f5e034d892daeab0bd7a3c,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8195003900664221118, guid: b3958f3533f5e034d892daeab0bd7a3c,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.13
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 8195003900664221118, guid: b3958f3533f5e034d892daeab0bd7a3c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.46
+      value: -0.55
       objectReference: {fileID: 0}
     - target: {fileID: 8195003900664221118, guid: b3958f3533f5e034d892daeab0bd7a3c,
         type: 3}
