@@ -266,6 +266,8 @@ MonoBehaviour:
   KillPlayerEffect: {fileID: 156528, guid: d0a6d28b0ec967c49bd2bc22acd8b93b, type: 3}
   FireObject: {fileID: 0}
   LinePosition: {fileID: 6607947380572339218}
+  SoundMonsterDie: {fileID: 8300000, guid: 423d4e71d87ac7140a065e444cb50acb, type: 3}
+  SoundHitPlayer: {fileID: 8300000, guid: 8bcfd969022e88c4b889a14558d71da8, type: 3}
 --- !u!120 &6607947380521452409
 LineRenderer:
   m_ObjectHideFlags: 0

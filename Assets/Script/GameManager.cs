@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
     public int Score { get; set; }
     public int Stars { get; set; }
 
-    public int Bullets { get; set; } = 200;
+    public int Bullets { get; set; } = 2;
 
     private int hearts = 5;
     public int Hearts

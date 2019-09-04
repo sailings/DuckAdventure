@@ -22,6 +22,9 @@ public class Monster : MonoBehaviour
     private LineRenderer lineRenderer;
     public GameObject LinePosition;
 
+    public AudioClip SoundMonsterDie;
+    public AudioClip SoundHitPlayer;
+
     private void Awake()
     {
         lineRenderer = GetComponent<LineRenderer>();
@@ -76,6 +79,8 @@ public class Monster : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && !playerDead)
         {
+            SoundManager.Instance.PlaySound(SoundMonsterDie);
+
             dead = true;
             //Debug.Log("Monster Dead");
             GameManager.Instance.Score += 100;
@@ -104,6 +109,7 @@ public class Monster : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && !dead)
         {
+            SoundManager.Instance.PlaySound(SoundHitPlayer);
             playerDead = true;
             var effect = Instantiate(KillPlayerEffect, controller.gameObject.transform);
             effect.transform.localPosition = effectPos2;

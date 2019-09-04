@@ -6,6 +6,7 @@ public class SavePoint : MonoBehaviour
 {
     private PlayerController controller;
     public GameObject HitEffect;
+    public AudioClip SoundHit;
 
     // Start is called before the first frame update
     void Start()
@@ -31,6 +32,8 @@ public class SavePoint : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            SoundManager.Instance.PlaySound(SoundHit);
+
             var effect = Instantiate(HitEffect,collision.gameObject.transform);
             effect.transform.localPosition = new Vector3(0.172f, 1.116f, 0);
 

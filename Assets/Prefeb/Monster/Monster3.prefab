@@ -214,6 +214,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 691627705353757724, guid: a1ae3ebd6bd1713408aa72b99f7b3e8f,
+        type: 3}
+      propertyPath: SoundMonsterDie
+      value: 
+      objectReference: {fileID: 8300000, guid: 423d4e71d87ac7140a065e444cb50acb, type: 3}
+    - target: {fileID: 691627705353757724, guid: a1ae3ebd6bd1713408aa72b99f7b3e8f,
+        type: 3}
+      propertyPath: SoundHitPlayer
+      value: 
+      objectReference: {fileID: 8300000, guid: 8bcfd969022e88c4b889a14558d71da8, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a1ae3ebd6bd1713408aa72b99f7b3e8f, type: 3}
 --- !u!4 &2542494579116397452 stripped

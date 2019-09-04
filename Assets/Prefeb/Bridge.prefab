@@ -105,6 +105,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 200466003, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
+      propertyPath: SoundWalk
+      value: 
+      objectReference: {fileID: 8300000, guid: fa910cde279a3d94d8b4a6d74ed91793, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
 --- !u!4 &4301813870940773113 stripped
@@ -180,6 +184,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 200466003, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
+      propertyPath: SoundWalk
+      value: 
+      objectReference: {fileID: 8300000, guid: fa910cde279a3d94d8b4a6d74ed91793, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
 --- !u!4 &4301813870396497651 stripped
@@ -255,6 +263,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 200466003, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
+      propertyPath: SoundWalk
+      value: 
+      objectReference: {fileID: 8300000, guid: fa910cde279a3d94d8b4a6d74ed91793, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
 --- !u!4 &4301813870125358275 stripped
@@ -330,6 +342,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 200466003, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
+      propertyPath: SoundWalk
+      value: 
+      objectReference: {fileID: 8300000, guid: fa910cde279a3d94d8b4a6d74ed91793, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
 --- !u!4 &4301813870215104276 stripped
@@ -405,6 +421,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 200466003, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
+      propertyPath: SoundWalk
+      value: 
+      objectReference: {fileID: 8300000, guid: fa910cde279a3d94d8b4a6d74ed91793, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
 --- !u!4 &4301813869884883924 stripped
@@ -480,6 +500,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 200466003, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
+      propertyPath: SoundWalk
+      value: 
+      objectReference: {fileID: 8300000, guid: fa910cde279a3d94d8b4a6d74ed91793, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
 --- !u!4 &4301813869963887988 stripped
@@ -555,6 +579,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 200466003, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
+      propertyPath: SoundWalk
+      value: 
+      objectReference: {fileID: 8300000, guid: fa910cde279a3d94d8b4a6d74ed91793, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
 --- !u!4 &4301813869084400433 stripped
@@ -630,6 +658,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 200466003, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
+      propertyPath: SoundWalk
+      value: 
+      objectReference: {fileID: 8300000, guid: fa910cde279a3d94d8b4a6d74ed91793, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94a2102277ad3404c8ad73e70bcda789, type: 3}
 --- !u!4 &2222014806014118893 stripped

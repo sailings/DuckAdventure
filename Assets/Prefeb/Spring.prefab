@@ -145,6 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PushForce: 700
+  SoundSpring: {fileID: 8300000, guid: 96a32fbdb0f4e914fa3b43b104389417, type: 3}
 --- !u!61 &5842520738662847920
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -8,6 +8,8 @@ public class Spring : MonoBehaviour
     private Animator animator;
     private bool allowPush = true;
 
+    public AudioClip SoundSpring;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -29,6 +31,7 @@ public class Spring : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && allowPush)
         {
+            SoundManager.Instance.PlaySound(SoundSpring);
             allowPush = false;
             animator.SetTrigger("Push");
             collision.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;

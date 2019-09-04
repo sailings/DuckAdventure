@@ -63,6 +63,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ShootMonsterEffect: {fileID: 130332, guid: 32cfac8cc1d148047a9cc0e3e231f07a, type: 3}
+  SoundMonsterDie: {fileID: 8300000, guid: 423d4e71d87ac7140a065e444cb50acb, type: 3}
 --- !u!50 &671737773489912846
 Rigidbody2D:
   serializedVersion: 4
@@ -91,6 +92,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 671737773489912844}
     m_Modifications:
+    - target: {fileID: 135146, guid: 4d6a0e7e9654fee409bd47a7ccab5ead, type: 3}
+      propertyPath: m_Name
+      value: BulletSmallBlue
+      objectReference: {fileID: 0}
     - target: {fileID: 454532, guid: 4d6a0e7e9654fee409bd47a7ccab5ead, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -134,10 +139,6 @@ PrefabInstance:
     - target: {fileID: 454532, guid: 4d6a0e7e9654fee409bd47a7ccab5ead, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 135146, guid: 4d6a0e7e9654fee409bd47a7ccab5ead, type: 3}
-      propertyPath: m_Name
-      value: BulletSmallBlue
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4d6a0e7e9654fee409bd47a7ccab5ead, type: 3}

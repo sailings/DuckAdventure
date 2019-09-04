@@ -40,6 +40,14 @@ public class PlayerController : MonoBehaviour
     public GameObject ThrownPoint;
     public GameObject Bullet;
 
+    public AudioClip SoundJump;
+    public AudioClip SoundCollect;
+    public AudioClip SoundMagnet;
+    public AudioClip SoundEatFruit;
+    public AudioClip SoundFallWater;
+    public AudioClip SoundAttack;
+    public AudioClip SoundNoBullet;
+
     private void Awake()
     {
         Magnet.SetActive(false);
@@ -54,6 +62,7 @@ public class PlayerController : MonoBehaviour
         isJumpUpHold = true;
         if (isGround)
         {
+            SoundManager.Instance.PlaySound(SoundJump);
             rig.gravityScale = gravityJump;
             rig.AddForce(new Vector2(0, jumpForce));
         }
@@ -100,6 +109,7 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Star"))
         {
+            SoundManager.Instance.PlaySound(SoundCollect);
             GameManager.Instance.Stars++;
             GameManager.Instance.Score += 10;
             Instantiate(StarHitEffect, gameObject.transform);
@@ -107,6 +117,7 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Fruit"))
         {
+            SoundManager.Instance.PlaySound(SoundEatFruit);
             GameManager.Instance.Hearts++;
             Instantiate(FruitHitEffect, gameObject.transform);
             Destroy(collision.gameObject);
@@ -118,6 +129,7 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Magnet"))
         {
+            SoundManager.Instance.PlaySound(SoundMagnet);
             Magnet.SetActive(true);
             Debug.Log("Hit Magnet");
             Destroy(collision.gameObject);
@@ -125,12 +137,14 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("JetPack"))
         {
+            SoundManager.Instance.PlaySound(SoundCollect);
             isUsingJetPack = true;
             JetPack.SetActive(true);
             Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("BulletCollect"))
         {
+            SoundManager.Instance.PlaySound(SoundCollect);
             GameManager.Instance.Bullets += 3;
             Destroy(collision.gameObject);
         }
@@ -159,6 +173,7 @@ public class PlayerController : MonoBehaviour
     {
         if (!die)
         {
+            SoundManager.Instance.PlaySound(SoundFallWater);
             die = true;
             rig.velocity = Vector3.zero;
             rig.isKinematic = true;
@@ -226,10 +241,14 @@ public class PlayerController : MonoBehaviour
         {
             if (GameManager.Instance.Bullets > 0)
             {
+                SoundManager.Instance.PlaySound(SoundAttack);
                 animator.SetTrigger("Thrown");
                 var newBullet = Instantiate(Bullet, ThrownPoint.transform.position, Quaternion.identity);
-                newBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(800,100));
+                newBullet.GetComponent<Rigidbody2D>().AddForce(new Vector2(800, 100));
                 GameManager.Instance.Bullets--;
+            }
+            else {
+                SoundManager.Instance.PlaySound(SoundNoBullet);
             }
         }
     }

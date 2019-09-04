@@ -6,6 +6,7 @@ public class Bridge : MonoBehaviour
 {
     private Animator animator;
     private Rigidbody2D rig;
+    public AudioClip SoundWalk;
 
     private void Awake()
     {
@@ -35,6 +36,7 @@ public class Bridge : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("Player"))
         {
+            SoundManager.Instance.PlaySound(SoundWalk);
             animator.SetTrigger("Rotate");
             //rig.isKinematic = false;
             StartCoroutine(Fall(0.5f));

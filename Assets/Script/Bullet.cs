@@ -5,6 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     public GameObject ShootMonsterEffect;
+    public AudioClip SoundMonsterDie;
 
     // Start is called before the first frame update
     void Start()
@@ -22,6 +23,7 @@ public class Bullet : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Monster"))
         {
+            SoundManager.Instance.PlaySound(SoundMonsterDie);
             Instantiate(ShootMonsterEffect, gameObject.transform.position, Quaternion.identity);
             Destroy(collision.gameObject);
             Destroy(gameObject);

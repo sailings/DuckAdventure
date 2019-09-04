@@ -11,6 +11,8 @@ public class Cannon : MonoBehaviour
     public float CannonForce = 1000.0f;
     public GameObject FirePoint;
 
+    public AudioClip SoundCannon;
+
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -34,6 +36,9 @@ public class Cannon : MonoBehaviour
             player.transform.rotation = FirePoint.transform.rotation;
             Head.SetActive(false);
             player.gameObject.SetActive(true);
+            player.Play();
+            SoundManager.Instance.PlaySound(SoundCannon);
+
             //Debug.Break();
             player.gameObject.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
             player.gameObject.GetComponent<Rigidbody2D>().AddRelativeForce(new Vector2(CannonForce,0));

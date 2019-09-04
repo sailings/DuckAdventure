@@ -120,3 +120,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HitEffect: {fileID: 173990, guid: ddd4449b45ead194fb1ecaf8602ff8a3, type: 3}
+  SoundHit: {fileID: 8300000, guid: bfd1bbf564366ad41b138f14535223e1, type: 3}

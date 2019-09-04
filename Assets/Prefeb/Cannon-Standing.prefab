@@ -243,6 +243,7 @@ MonoBehaviour:
   Head: {fileID: 2259394472063624308}
   CannonForce: 1000
   FirePoint: {fileID: 2259394471681791982}
+  SoundCannon: {fileID: 8300000, guid: 3b0f8af7cb2b65e4ebefcc801a7ee275, type: 3}
 --- !u!1 &2259394472651663136
 GameObject:
   m_ObjectHideFlags: 0

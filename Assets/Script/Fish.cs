@@ -8,6 +8,8 @@ public class Fish : MonoBehaviour
     private bool playerDead = false;
     private PlayerController controller;
 
+    public AudioClip SoundHitPlayer;
+
     private void Awake()
     {
         controller = FindObjectOfType<PlayerController>();
@@ -49,6 +51,7 @@ public class Fish : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && !dead)
         {
+            SoundManager.Instance.PlaySound(SoundHitPlayer);
             playerDead = true;
             GameManager.Instance.GameOver();
         }
