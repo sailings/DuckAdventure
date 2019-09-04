@@ -72,6 +72,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Monster: {fileID: 6607947380521452406}
   InitEnable: 0
+  SoundMonster: {fileID: 8300000, guid: af1140e054ac6ad4e8f8e918583fb497, type: 3}
 --- !u!1 &6607947380421609583
 GameObject:
   m_ObjectHideFlags: 0

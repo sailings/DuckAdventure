@@ -264,6 +264,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BigBullets: {fileID: 7976081373090469573}
+  SoundBullets: {fileID: 0}
 --- !u!61 &7976081372019217116
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -611,7 +612,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7976081373090469573}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 3.76, y: 0, z: 0}
+  m_LocalPosition: {x: 3.76, y: -1.48, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7976081371415022204}
@@ -707,7 +708,7 @@ MonoBehaviour:
   - {fileID: 8908295183808433125, guid: 2fcce5470d8b07840b0042b0bb12eab8, type: 3}
   - {fileID: 3656445844009522700, guid: b83039434dc15e5439de75d2e7cb1c1d, type: 3}
   - {fileID: 691627705353757721, guid: a1ae3ebd6bd1713408aa72b99f7b3e8f, type: 3}
-  TotalLife: 100
+  TotalLife: 30
   ProtectEffect:
   - {fileID: 7976081371323463839}
   - {fileID: 7976081371354973696}
@@ -720,6 +721,9 @@ MonoBehaviour:
   BussBullet: {fileID: 8875782470987496537, guid: 51ace46ad534a974e8b76539c8ffca5c,
     type: 3}
   slider: {fileID: 7976081372732297397}
+  SoundBulletHit: {fileID: 8300000, guid: 5221322c1ad563f478d26d2a38588c4e, type: 3}
+  SoundBulletMiss: {fileID: 8300000, guid: 9eee61dfd71dcf24d988ed3de8625f52, type: 3}
+  SoundBossDie: {fileID: 8300000, guid: bd28c131ec8f78543bbf6e8a017a34b1, type: 3}
 --- !u!61 &7976081373090469568
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -792,10 +796,6 @@ PrefabInstance:
     - target: {fileID: 121774, guid: aba4e1a9dccf2f94f811b8680140348f, type: 3}
       propertyPath: m_Name
       value: MagicZoneBlue
-      objectReference: {fileID: 0}
-    - target: {fileID: 121774, guid: aba4e1a9dccf2f94f811b8680140348f, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 450930, guid: aba4e1a9dccf2f94f811b8680140348f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -931,10 +931,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7976081371882351636}
     m_Modifications:
-    - target: {fileID: 187168, guid: de1b5c489cb21d345abf4314ac2cf8f6, type: 3}
-      propertyPath: m_Name
-      value: MagicZonePink
-      objectReference: {fileID: 0}
     - target: {fileID: 474176, guid: de1b5c489cb21d345abf4314ac2cf8f6, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -979,6 +975,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 187168, guid: de1b5c489cb21d345abf4314ac2cf8f6, type: 3}
+      propertyPath: m_Name
+      value: MagicZonePink
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de1b5c489cb21d345abf4314ac2cf8f6, type: 3}
 --- !u!4 &7976081372013132166 stripped
@@ -1000,10 +1000,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7976081373090469572}
     m_Modifications:
-    - target: {fileID: 111326, guid: f2fbb0f3fd093464d89bef0616b03091, type: 3}
-      propertyPath: m_Name
-      value: SmokeWhiteSoft
-      objectReference: {fileID: 0}
     - target: {fileID: 455154, guid: f2fbb0f3fd093464d89bef0616b03091, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1048,20 +1044,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 19857662, guid: f2fbb0f3fd093464d89bef0616b03091, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.r
-      value: 1
+    - target: {fileID: 111326, guid: f2fbb0f3fd093464d89bef0616b03091, type: 3}
+      propertyPath: m_Name
+      value: SmokeWhiteSoft
       objectReference: {fileID: 0}
-    - target: {fileID: 19857662, guid: f2fbb0f3fd093464d89bef0616b03091, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 19857662, guid: f2fbb0f3fd093464d89bef0616b03091, type: 3}
-      propertyPath: InitialModule.startColor.maxColor.b
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2806959702891736020, guid: f2fbb0f3fd093464d89bef0616b03091, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2fbb0f3fd093464d89bef0616b03091, type: 3}
 --- !u!1 &7976081372273336202 stripped
 GameObject:

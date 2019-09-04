@@ -11,10 +11,12 @@ public class WorldSlide : MonoBehaviour
     private float step = 450;
     private float minX;
     private float maxX;
-    private float blockCount = 2;
+    public float blockCount = 2;
     private float speed = 0.8f;
 
     public GameObject WorldChoose;
+
+    public AudioClip SoundClick;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,7 @@ public class WorldSlide : MonoBehaviour
 
     public void Pre()
     {
+        SoundManager.Instance.PlaySound(SoundClick);
         posx += step;
         posx = Mathf.Clamp(posx, minX, maxX);
         //Levels.anchoredPosition = new Vector2(posx, Levels.anchoredPosition.y);
@@ -40,6 +43,7 @@ public class WorldSlide : MonoBehaviour
 
     public void Next()
     {
+        SoundManager.Instance.PlaySound(SoundClick);
         posx -= step;
         posx = Mathf.Clamp(posx, minX, maxX);
         //Levels.anchoredPosition = new Vector2(posx, Levels.anchoredPosition.y);
@@ -48,6 +52,7 @@ public class WorldSlide : MonoBehaviour
 
     public void Close()
     {
+        SoundManager.Instance.PlaySound(SoundClick);
         WorldChoose.SetActive(true);
         gameObject.SetActive(false);
     }

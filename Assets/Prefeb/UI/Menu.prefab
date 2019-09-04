@@ -56,6 +56,7 @@ MonoBehaviour:
   ScoreText: {fileID: 606488956}
   BestScoreText: {fileID: 1588209596}
   Panel: {fileID: 1018924814}
+  SoundStar: {fileID: 8300000, guid: 6964c039c0583a94597c9d8187ec3dbe, type: 3}
 --- !u!1 &206938114
 GameObject:
   m_ObjectHideFlags: 0
@@ -1954,7 +1955,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -136.7, y: -15.6}
+  m_AnchoredPosition: {x: -136.69995, y: -15.599976}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &3031796529985478891
@@ -2277,6 +2278,8 @@ MonoBehaviour:
   Hearts: {fileID: 3031796531084956096}
   GamePause: {fileID: 3031796530810541854}
   LevelComplete: {fileID: 6415831}
+  SoundSuccess: {fileID: 8300000, guid: 7940f5dcd5e457d41888ae505b288760, type: 3}
+  SoundClick: {fileID: 8300000, guid: 6e6c4f69eb968024695b30a9de2c6e3c, type: 3}
 --- !u!1 &3031796530363903793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3110,7 +3113,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -32, y: -2.100006}
+  m_AnchoredPosition: {x: -32, y: -2.0999756}
   m_SizeDelta: {x: 31.6, y: 46.9}
   m_Pivot: {x: 1, y: 1}
 --- !u!222 &3031796531361511135

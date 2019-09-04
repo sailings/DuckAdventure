@@ -71,6 +71,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BigBullets: {fileID: 4844441995395858312}
+  SoundBullets: {fileID: 8300000, guid: aebd2757570875244b8911c34d39f109, type: 3}
 --- !u!1 &4844441994228943290
 GameObject:
   m_ObjectHideFlags: 0

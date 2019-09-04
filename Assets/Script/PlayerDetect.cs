@@ -7,6 +7,8 @@ public class PlayerDetect : MonoBehaviour
     public GameObject Monster;
     public bool InitEnable = false;
 
+    public AudioClip SoundMonster;
+
     private void Awake()
     {
         if(!InitEnable)
@@ -31,6 +33,7 @@ public class PlayerDetect : MonoBehaviour
         {
             Monster.SetActive(true);
             Monster.GetComponent<Rigidbody2D>().isKinematic = false;
+            SoundManager.Instance.PlaySound(SoundMonster);
         }
     }
 }

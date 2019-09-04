@@ -23,6 +23,9 @@ public class Boss : MonoBehaviour
     public GameObject BussBullet;
 
     public Slider slider;
+    public AudioClip SoundBulletHit;
+    public AudioClip SoundBulletMiss;
+    public AudioClip SoundBossDie;
 
     private void Awake()
     {
@@ -68,19 +71,20 @@ public class Boss : MonoBehaviour
     {
         while (!isDead)
         {
-            yield return new WaitForSeconds(Random.Range(2.0f,3.0f));
-            Instantiate(DropMonsters[Random.Range(0, DropMonsters.Length)],DropPoint.transform.position,Quaternion.identity);
+            yield return new WaitForSeconds(Random.Range(2.0f, 3.0f));
+            Instantiate(DropMonsters[Random.Range(0, DropMonsters.Length)], DropPoint.transform.position, Quaternion.identity);
 
             yield return new WaitForSeconds(Random.Range(1.0f, 3.0f));
-            var bossBullet = Instantiate(BussBullet,DropPoint.transform.position,Quaternion.identity);
+            var bossBullet = Instantiate(BussBullet, DropPoint.transform.position, Quaternion.identity);
             var P1 = controller.transform.position;
             var P2 = DropPoint.transform.position;
             var distance = P2.x - P1.x;
-            var P3 = new Vector2(P1.x + 0.33f * distance + (0.33f * distance * Random.Range(0, 1.0f)), P1.y);
+            //var P3 = new Vector2(P1.x + 0.33f * distance + (0.33f * distance * Random.Range(0, 1.0f)), P1.y);
+            var P3 = new Vector2(P1.x + 0.33f * distance, P1.y);
             var time = (P3.x - P1.x) / (controller.speed / Time.fixedDeltaTime);
             var vx = (P2.x - P3.x) / time * -1;
             var vy = (P2.y - P3.y) / time * -1;
-            bossBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(vx,vy);
+            bossBullet.GetComponent<Rigidbody2D>().velocity = new Vector2(vx, vy);
         }
     }
     public void BeginAttack()
@@ -109,10 +113,12 @@ public class Boss : MonoBehaviour
                     var newColor = lifeLeft / TotalLife;
                     SmokeEffect.GetComponent<ParticleSystem>().startColor = new Color(newColor,newColor,newColor);
                 }
+                SoundManager.Instance.PlaySound(SoundBulletHit);
                 var hitEffect = Instantiate(HitEffect, collision.gameObject.transform.position, Quaternion.identity);
                 hitEffect.transform.localScale = new Vector3(0.5f,0.5f,0.5f);
                 if (lifeLeft <= 0)
                 {
+                    SoundManager.Instance.PlaySound(SoundBossDie);
                     Debug.Log("Boss Dead");
                     isDead = true;
                     GameManager.Instance.Score += 500;
@@ -124,6 +130,7 @@ public class Boss : MonoBehaviour
                 Debug.Log("Boss Protect");
                 var missEffect = Instantiate(BulletMissEffect,collision.gameObject.transform.position,Quaternion.identity);
                 missEffect.transform.position = collision.gameObject.transform.position - new Vector3(1, 0, 0);
+                SoundManager.Instance.PlaySound(SoundBulletMiss);
             }
             Destroy(collision.gameObject);
         }

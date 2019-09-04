@@ -46,6 +46,8 @@ public class GameManager : MonoBehaviour
 
     public int Star;
 
+    public AudioClip SoundGameOver;
+
     private void Awake()
     {
         Instance = this;
@@ -127,6 +129,7 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
+        SoundManager.Instance.PlaySound(SoundGameOver);
         Controller.Dead();
         StartCoroutine(Restart(2.0f));
     }

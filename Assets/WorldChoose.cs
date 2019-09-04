@@ -17,6 +17,8 @@ public class WorldChoose : MonoBehaviour
     public GameObject World2;
     public GameObject World3;
 
+    public AudioClip SoundClick;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,6 +43,7 @@ public class WorldChoose : MonoBehaviour
 
     public void ShowWorld1Level()
     {
+        SoundManager.Instance.PlaySound(SoundClick);
         GlobalValue.WorldPlaying = 1;
         gameObject.SetActive(false);
         World1Levels.SetActive(true);
@@ -48,6 +51,7 @@ public class WorldChoose : MonoBehaviour
 
     public void ShowWorld2Level()
     {
+        SoundManager.Instance.PlaySound(SoundClick);
         GlobalValue.WorldPlaying = 2;
         gameObject.SetActive(false);
         World2Levels.SetActive(true);
@@ -55,6 +59,7 @@ public class WorldChoose : MonoBehaviour
 
     public void ShowWorld3Level()
     {
+        SoundManager.Instance.PlaySound(SoundClick);
         GlobalValue.WorldPlaying = 3;
         gameObject.SetActive(false);
         World3Levels.SetActive(true);

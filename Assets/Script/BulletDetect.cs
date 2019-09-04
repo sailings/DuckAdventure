@@ -5,6 +5,8 @@ using UnityEngine;
 public class BulletDetect : MonoBehaviour
 {
     public GameObject BigBullets;
+
+    public AudioClip SoundBullets;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,6 +23,7 @@ public class BulletDetect : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
+            SoundManager.Instance.PlaySound(SoundBullets);
             Debug.Log("Bullet Detected Player");
             BigBullets.SetActive(true);
         }

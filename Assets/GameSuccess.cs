@@ -16,6 +16,8 @@ public class GameSuccess : MonoBehaviour
     public RectTransform Panel;
     private int tempScore;
 
+    public AudioClip SoundStar;
+
     private void Awake()
     {
         Star1.SetActive(false);
@@ -30,14 +32,17 @@ public class GameSuccess : MonoBehaviour
             if (GameManager.Instance.Star > 0)
             {
                 Star1.SetActive(true);
+                SoundManager.Instance.PlaySound(SoundStar);
                 Star1.transform.DOScale(3, 1).From().OnComplete(()=> {
                     if (GameManager.Instance.Star > 1)
                     {
                         Star2.SetActive(true);
+                        SoundManager.Instance.PlaySound(SoundStar);
                         Star2.transform.DOScale(3, 1).From().OnComplete(()=> {
                             if (GameManager.Instance.Star > 2)
                             {
                                 Star3.SetActive(true);
+                                SoundManager.Instance.PlaySound(SoundStar);
                                 Star3.transform.DOScale(3,1).From();
                             }
                         });

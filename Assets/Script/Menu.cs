@@ -18,6 +18,9 @@ public class Menu : MonoBehaviour
 
     public static Menu Instance;
 
+    public AudioClip SoundSuccess;
+    public AudioClip SoundClick;
+
     private void Awake()
     {
         Instance = this;
@@ -47,6 +50,7 @@ public class Menu : MonoBehaviour
 
     public void Pause()
     {
+        SoundManager.Instance.PlaySound(SoundClick);
         GameManager.Instance.GameState = GameState.Pause;
         GamePause.SetActive(true);
         Time.timeScale = 0;
@@ -54,6 +58,7 @@ public class Menu : MonoBehaviour
 
     public void NextLevel()
     {
+        SoundManager.Instance.PlaySound(SoundClick);
         GlobalValue.HitSavePoint = false;
 
         if (GlobalValue.WorldPlaying <= 3)
@@ -71,6 +76,7 @@ public class Menu : MonoBehaviour
 
     public void MainMenu()
     {
+        SoundManager.Instance.PlaySound(SoundClick);
         GamePause.SetActive(false);
         GlobalValue.HitSavePoint = false;
         Time.timeScale = 1;
@@ -79,6 +85,7 @@ public class Menu : MonoBehaviour
 
     public void Restart()
     {
+        SoundManager.Instance.PlaySound(SoundClick);
         Time.timeScale = 1;
         GlobalValue.HitSavePoint = false;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -86,6 +93,7 @@ public class Menu : MonoBehaviour
 
     public void Resume()
     {
+        SoundManager.Instance.PlaySound(SoundClick);
         GameManager.Instance.GameState = GameState.Playing;
         GamePause.SetActive(false);
         Time.timeScale = 1;
@@ -102,6 +110,7 @@ public class Menu : MonoBehaviour
     public IEnumerator ShowLevelComplete()
     {
         yield return new WaitForSeconds(2);
+        SoundManager.Instance.PlaySound(SoundSuccess);
         LevelComplete.SetActive(true);
     }
 }
