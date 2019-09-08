@@ -53,7 +53,42 @@ public class GameManager : MonoBehaviour
         Instance = this;
         StartCoroutine(ReduceHeart());
 
-        totalScore = Random.Range(500, 1000);
+        //totalScore = Random.Range(500, 1000);
+        var monObj = GameObject.Find("Monsters");
+        if (monObj)
+        {
+            int monsterCount = monObj.transform.childCount;
+            for (int i = 0; i < monsterCount; i++)
+            {
+                var monster = monObj.transform.GetChild(i);
+                if (monster.gameObject.activeInHierarchy)
+                {
+                    if (monster.gameObject.name == "Boss")
+                    {
+                        totalScore += 500;
+                    }
+                    else
+                    {
+                        totalScore += 100;
+                    }
+                }
+            }
+        }
+
+        var stars = GameObject.FindGameObjectsWithTag("Star");
+        if (stars != null)
+        {
+            foreach (var star in stars)
+            {
+                if (star.activeInHierarchy)
+                {
+                    totalScore += 10;
+                }
+            }
+        }
+
+        Debug.Log($"TotalScore={totalScore}");
+
         star1Score = (int)(totalScore * 0.4f);
         star2Score = (int)(totalScore * 0.6f);
         star3Score = (int)(totalScore * 0.8f);
