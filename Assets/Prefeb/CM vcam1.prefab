@@ -177,8 +177,8 @@ MonoBehaviour:
   m_XDamping: 1
   m_YDamping: 1
   m_ZDamping: 1
-  m_ScreenX: 0.11702061
-  m_ScreenY: 0.592857
+  m_ScreenX: 0.089973256
+  m_ScreenY: 0.75308764
   m_CameraDistance: 10
   m_DeadZoneWidth: 0.09
   m_DeadZoneHeight: 0.32

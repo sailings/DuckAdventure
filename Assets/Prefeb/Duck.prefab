@@ -266,6 +266,7 @@ MonoBehaviour:
   SoundFallWater: {fileID: 8300000, guid: 1d7092a1edbbda8448e4cc3658620a85, type: 3}
   SoundAttack: {fileID: 8300000, guid: 66d690acf012e6a47b760a33d6000305, type: 3}
   SoundNoBullet: {fileID: 8300000, guid: 47f0756942593164daa2f0566ed4b125, type: 3}
+  SoundHitEnemy: {fileID: 8300000, guid: 8bcfd969022e88c4b889a14558d71da8, type: 3}
 --- !u!1 &114474
 GameObject:
   m_ObjectHideFlags: 0

@@ -119,7 +119,7 @@ public class GameManager : MonoBehaviour
     {
         //Debug.Log("GameSuccess");
 
-        Score = Random.Range(0, totalScore);
+        //Score = Random.Range(0, totalScore);
 
         if (GlobalValue.LevelPlaying >= GlobalValue.HightestLevel)
         {

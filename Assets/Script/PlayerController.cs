@@ -47,6 +47,7 @@ public class PlayerController : MonoBehaviour
     public AudioClip SoundFallWater;
     public AudioClip SoundAttack;
     public AudioClip SoundNoBullet;
+    public AudioClip SoundHitEnemy;
 
     private void Awake()
     {
@@ -124,8 +125,9 @@ public class PlayerController : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            SoundManager.Instance.PlaySound(SoundHitEnemy);
             GameManager.Instance.GameOver();
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
         }
         if (collision.gameObject.CompareTag("Magnet"))
         {
