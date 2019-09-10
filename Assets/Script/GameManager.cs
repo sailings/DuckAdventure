@@ -110,7 +110,9 @@ public class GameManager : MonoBehaviour
             if (hearts <= 0)
             {
                 //Debug.Log("Game Over");
-                GameOver();
+                #if !UNITY_EDITOR
+                    GameOver();
+                #endif
             }
         }
     }
