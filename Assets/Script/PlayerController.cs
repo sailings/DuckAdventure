@@ -101,6 +101,7 @@ public class PlayerController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Saw"))
         {
+            SoundManager.Instance.PlaySound(SoundHitEnemy);
             Instantiate(BloodEffect, transform);
             GameManager.Instance.GameOver();
         }
