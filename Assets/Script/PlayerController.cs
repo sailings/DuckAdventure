@@ -65,6 +65,7 @@ public class PlayerController : MonoBehaviour
         {
             SoundManager.Instance.PlaySound(SoundJump);
             rig.gravityScale = gravityJump;
+            rig.velocity = new Vector2(0,0);
             rig.AddForce(new Vector2(0, jumpForce));
         }
     }

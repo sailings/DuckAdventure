@@ -11,21 +11,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/World01/W1-1.unity
     guid: 3e27066c92e3cde4fbda4a535d54894d
-  - enabled: 1
-    path: Assets/Scenes/World01/W1-2.unity
-    guid: ca75f507a4cf7df48a8fd8ef2fb63596
-  - enabled: 1
-    path: Assets/Scenes/World01/W1-3.unity
-    guid: 727c6880177abdb4d84dbd06f5353a19
-  - enabled: 1
-    path: Assets/Scenes/World01/W1-4.unity
-    guid: 342c196ebd2bf034b82d0529605fd101
-  - enabled: 1
-    path: Assets/Scenes/World01/W1-5.unity
-    guid: 6a1b51a99078fb14796c8381cc1a5506
-  - enabled: 1
-    path: Assets/Scenes/World01/W1-6.unity
-    guid: 9b162909568862b4a82ea60987fa43cb
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/World01/W1-7.unity
     guid: 6f211558ac06c8e409fbd2c9b3621be5
