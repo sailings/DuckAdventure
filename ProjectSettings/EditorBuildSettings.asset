@@ -26,20 +26,20 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Scenes/World01/W1-7.unity
-    guid: 6f211558ac06c8e409fbd2c9b3621be5
-  - enabled: 1
-    path: Assets/Scenes/World01/W1-8.unity
-    guid: ef0864e9e6ce3b14aa84ffe8c09f0967
-  - enabled: 1
-    path: Assets/Scenes/World01/W1-9.unity
-    guid: e065a8c93da9eed4a9aa57468124765f
-  - enabled: 1
-    path: Assets/Scenes/World01/W1-10.unity
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/1f2434d915f61a647b4206a38754502e
     guid: 1f2434d915f61a647b4206a38754502e
-  - enabled: 1
-    path: Assets/Scenes/World01/W1-11.unity
+  - enabled: 0
+    path: Assets/__DELETED_GUID_Trash/f91aed5a216c1bf4688be9d1a95a2c66
     guid: f91aed5a216c1bf4688be9d1a95a2c66
   - enabled: 1
     path: Assets/Scenes/World01/W1-12.unity
