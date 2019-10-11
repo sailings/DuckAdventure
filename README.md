@@ -28,8 +28,7 @@ Dotween
 键盘和移动端输入
 Cinemachine相机跟随，Confiner扩展
 UGUI常见控件，HUD
-屏幕自适应
-
+屏幕自适应\r\n
 地图与关卡解锁
 关卡滑动
 背景滚动
