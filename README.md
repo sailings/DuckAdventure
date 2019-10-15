@@ -5,9 +5,10 @@
 ## 元素展示
 * 跳跃、匍匐、射击  
 ![跳跃](https://github.com/sailings/DuckAdventure/blob/master/png/%E8%B7%B3%E8%B7%83.png)
-![匍匐](https://github.com/sailings/DuckAdventure/blob/master/png/%E5%8C%8D%E5%8C%90.png)
-![射击](https://github.com/sailings/DuckAdventure/blob/master/png/%E5%B0%84%E5%87%BB.png)
+![匍匐](https://github.com/sailings/DuckAdventure/blob/master/png/%E5%8C%8D%E5%8C%90.png)  
+![射击](https://github.com/sailings/DuckAdventure/blob/master/png/%E5%B0%84%E5%87%BB.png)  
 * 星星、水果 
+![星星水果](https://github.com/sailings/DuckAdventure/blob/master/png/%E6%98%9F%E6%98%9F%E6%B0%B4%E6%9E%9C.png)
 * 口水怪、喷火怪、钢管怪
 * 飞翔的小鸟怪、食人鱼、从天而降怪
 * 空中栈道
