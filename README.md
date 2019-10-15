@@ -10,7 +10,12 @@
 * 星星、水果 
 ![星星水果](https://github.com/sailings/DuckAdventure/blob/master/png/%E6%98%9F%E6%98%9F%E6%B0%B4%E6%9E%9C.png)
 * 口水怪、喷火怪、钢管怪
+![口水怪喷火怪](https://github.com/sailings/DuckAdventure/blob/master/png/%E5%8F%A3%E6%B0%B4%E6%80%AA%E5%96%B7%E7%81%AB%E6%80%AA.png)
+![钢管怪](https://github.com/sailings/DuckAdventure/blob/master/png/%E9%92%A2%E7%AE%A1%E6%80%AA.png)
 * 飞翔的小鸟怪、食人鱼、从天而降怪
+![飞翔的小鸟怪](https://github.com/sailings/DuckAdventure/blob/master/png/%E9%A3%9E%E7%BF%94%E7%9A%84%E5%B0%8F%E9%B8%9F.png)
+![食人鱼](https://github.com/sailings/DuckAdventure/blob/master/png/%E9%A3%9F%E4%BA%BA%E9%B1%BC.png)
+![从天而降怪](https://github.com/sailings/DuckAdventure/blob/master/png/%E4%BB%8E%E5%A4%A9%E8%80%8C%E9%99%8D%E6%80%AA.png)
 * 空中栈道
 * 独木桥
 * 蹦床
